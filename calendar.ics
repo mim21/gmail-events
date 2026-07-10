@@ -5,60 +5,60 @@ X-WR-CALNAME:אירועים מהמייל
 X-WR-TIMEZONE:Asia/Jerusalem
 BEGIN:VEVENT
 UID:ebd388b1ee1b45cf0dfc94ddd68be709@gmail-events
-DTSTAMP:20260710T072549Z
+DTSTAMP:20260710T135629Z
 DTSTART:20260721T202000
 DTEND:20260721T232300
 SUMMARY:Kundalini Activation — טקס הפעלת קונדליני
 DESCRIPTION:מסע ריפוי אנרגטי המתמקד בהתחלות וסופים\, שחרור רגשי והטענה באנרגיה חדשה\, בהנחיית GinjahVibes.
 LOCATION:ביאינג · פרדס חנה
-URL:http://localhost:8000/#event-Kundalini-Activation-%D7%98%D7%A7%D7%A1-%D7%94%D7%A4%D7%A2%D7%9C%D7%AA-%D7%A7%D7%95%D7%A0%D7%93%D7%9C%D7%99%D7%A0%D7%99-20260721-2020
+URL:https://mim21.github.io/gmail-events/#event-Kundalini-Activation-%D7%98%D7%A7%D7%A1-%D7%94%D7%A4%D7%A2%D7%9C%D7%AA-%D7%A7%D7%95%D7%A0%D7%93%D7%9C%D7%99%D7%A0%D7%99-20260721-2020
 END:VEVENT
 BEGIN:VEVENT
 UID:602e3e587863e436273ed12ea821fbf1@gmail-events
-DTSTAMP:20260710T072549Z
+DTSTAMP:20260710T135629Z
 DTSTART:20260723T200000
 DTEND:20260723T220000
 SUMMARY:התמסרות — סדנת טנטרה לזוגות מתקדמים
 DESCRIPTION:סדנה טקסית ועמוקה לזוגות מתקדמים\, עם מדיטציות עומק\, אלכימיה זוגית ועבודה בתוך הזוג בלבד.
-URL:http://localhost:8000/#event-%D7%94%D7%AA%D7%9E%D7%A1%D7%A8%D7%95%D7%AA-%D7%A1%D7%93%D7%A0%D7%AA-%D7%98%D7%A0%D7%98%D7%A8%D7%94-%D7%9C%D7%96%D7%95%D7%92%D7%95%D7%AA-%D7%9E%D7%AA%D7%A7%D7%93%D7%9E%D7%99%D7%9D-20260723-2000
+URL:https://mim21.github.io/gmail-events/#event-%D7%94%D7%AA%D7%9E%D7%A1%D7%A8%D7%95%D7%AA-%D7%A1%D7%93%D7%A0%D7%AA-%D7%98%D7%A0%D7%98%D7%A8%D7%94-%D7%9C%D7%96%D7%95%D7%92%D7%95%D7%AA-%D7%9E%D7%AA%D7%A7%D7%93%D7%9E%D7%99%D7%9D-20260723-2000
 END:VEVENT
 BEGIN:VEVENT
 UID:8d3d2307cff1c32653b510b2c40adfe0@gmail-events
-DTSTAMP:20260710T072549Z
+DTSTAMP:20260710T135629Z
 DTSTART:20260725T140000
 DTEND:20260725T220000
 SUMMARY:Heartland Day Festival
 DESCRIPTION:פסטיבל שבטי לכל המשפחה עם ארבעה מתחמים\, 16 סדנאות\, אקסטטיק דאנס\, מסיבת מים ומעגל שירה.
 LOCATION:חווה קסומה ליד גבעת עדה (מיקום יישלח לנרשמים)
-URL:http://localhost:8000/#event-Heartland-Day-Festival-20260725-1400
+URL:https://mim21.github.io/gmail-events/#event-Heartland-Day-Festival-20260725-1400
 END:VEVENT
 BEGIN:VEVENT
 UID:064048056941124f9196fc32565b1f30@gmail-events
-DTSTAMP:20260710T072549Z
+DTSTAMP:20260710T135629Z
 DTSTART:20260728T190000
 DTEND:20260728T210000
 SUMMARY:ט״ו באב — סדנת חג האהבה לזוגות
 DESCRIPTION:ערב זוגי לכבוד ט״ו באב עם טקסים\, טנטרה\, אהבה\, תשוקה וחיבור. העבודה היא בתוך הזוג בלבד ומתאימה לכל הרמות.
-URL:http://localhost:8000/#event-%D7%98-%D7%95-%D7%91%D7%90%D7%91-%D7%A1%D7%93%D7%A0%D7%AA-%D7%97%D7%92-%D7%94%D7%90%D7%94%D7%91%D7%94-%D7%9C%D7%96%D7%95%D7%92%D7%95%D7%AA-20260728-1900
+URL:https://mim21.github.io/gmail-events/#event-%D7%98-%D7%95-%D7%91%D7%90%D7%91-%D7%A1%D7%93%D7%A0%D7%AA-%D7%97%D7%92-%D7%94%D7%90%D7%94%D7%91%D7%94-%D7%9C%D7%96%D7%95%D7%92%D7%95%D7%AA-20260728-1900
 END:VEVENT
 BEGIN:VEVENT
 UID:055f2f349368daad6933ec83eabe79f8@gmail-events
-DTSTAMP:20260710T072549Z
+DTSTAMP:20260710T135629Z
 DTSTART:20260901T180000
 DTEND:20260901T213000
 SUMMARY:קורס אהבה\, יחסים ומיניות 2026
 DESCRIPTION:המחזור הרביעי והאחרון השנה של קורס העוסק באהבה\, יחסים\, מיניות ואומנויות האהבה.
 LOCATION:תל אביב
-URL:http://localhost:8000/#event-%D7%A7%D7%95%D7%A8%D7%A1-%D7%90%D7%94%D7%91%D7%94-%D7%99%D7%97%D7%A1%D7%99%D7%9D-%D7%95%D7%9E%D7%99%D7%A0%D7%99%D7%95%D7%AA-2026-20260901-1800
+URL:https://mim21.github.io/gmail-events/#event-%D7%A7%D7%95%D7%A8%D7%A1-%D7%90%D7%94%D7%91%D7%94-%D7%99%D7%97%D7%A1%D7%99%D7%9D-%D7%95%D7%9E%D7%99%D7%A0%D7%99%D7%95%D7%AA-2026-20260901-1800
 END:VEVENT
 BEGIN:VEVENT
 UID:16731bda4c88ab746a023ce1c1096eff@gmail-events
-DTSTAMP:20260710T072549Z
+DTSTAMP:20260710T135629Z
 DTSTART:20261022T160000
 DTEND:20261023T160000
 SUMMARY:Lovolution Festival
 DESCRIPTION:פסטיבל קהילתי עתידי של GinjahVibes שהוכרז במייל לצד אירועי הקיץ והסתיו.
 LOCATION:פארק הירדן · עמק הירדן
-URL:http://localhost:8000/#event-Lovolution-Festival-20261022-1600
+URL:https://mim21.github.io/gmail-events/#event-Lovolution-Festival-20261022-1600
 END:VEVENT
 END:VCALENDAR
