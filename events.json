@@ -1,0 +1,471 @@
+[
+  {
+    "title": "פסטיבל אושו ישראל ה-18",
+    "event_type": "other",
+    "status": "scheduled",
+    "date_only": "2026-07-16",
+    "end_date_only": "2026-07-18",
+    "start_time_only": null,
+    "end_time_only": null,
+    "raw_date_text": "16-18 ביולי שנת 2026",
+    "location_name": null,
+    "city": null,
+    "price_text": null,
+    "price_unit": null,
+    "price_note": "כרטיסים מוזלים אחרונים לפי המייל",
+    "price_details": [],
+    "description": "פסטיבל עומק ותיק ברוח אושו עם סדנאות מודעות, הופעות ומסיבות. המייל כולל לוח זמנים מלא ומציין שנותרו כרטיסים מוזלים ומקומות אחרונים בחדרים.",
+    "registration_link": "https://links.responder.co.il/?lid=41841915&sid=643088171&k=a8e4fbbeef5d3c667961267d3f580b88",
+    "_image_filename": null,
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": 0,
+        "source_excerpt": "חודש לפסטיבל אושו — לוח זמנים מלא",
+        "source_message_timestamp": "2026-06-18"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "title": "קבלות שבת בזאפה ירושלים",
+    "event_type": "concert",
+    "status": "scheduled",
+    "date_only": "2026-07-17",
+    "end_date_only": "2027-01-30",
+    "start_time_only": null,
+    "end_time_only": null,
+    "raw_date_text": "17.7-30.1",
+    "location_name": "זאפה ירושלים",
+    "city": "ירושלים",
+    "price_text": null,
+    "price_unit": null,
+    "price_note": "60₪ הנחה לחברי מועדון ירושלמי",
+    "price_details": [],
+    "description": "סדרת קבלות שבת מוזיקליות בזאפה ירושלים. המייל מציג את הסדרה כהטבת קיץ לחברי מועדון ירושלמי.",
+    "registration_link": "https://www.pulseem.com/pulseem/LinkRedirect.axd?LinkID=261158005&ClientID=308716600",
+    "_image_filename": null,
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": 0,
+        "source_excerpt": "קבלות שבת בזאפה — 17.7-30.1",
+        "source_message_timestamp": "2026-06-30"
+      }
+    ],
+    "confidence": 0.82
+  },
+  {
+    "title": "Kundalini Activation — טקס הפעלת קונדליני",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-07-21",
+    "end_date_only": null,
+    "start_time_only": null,
+    "end_time_only": null,
+    "raw_date_text": "Kundalini Activation 21.7",
+    "location_name": "ביאינג",
+    "city": "פרדס חנה",
+    "price_text": null,
+    "price_unit": null,
+    "price_note": null,
+    "price_details": [],
+    "description": "מסע ריפוי אנרגטי המתמקד בהתחלות וסופים, שחרור רגשי והטענה באנרגיה חדשה, בהנחיית GinjahVibes.",
+    "registration_link": "https://www.ginjahvibes.com/kundaliniactivation",
+    "_image_filename": null,
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [
+        "https://www.instagram.com/ginjahvibes/"
+      ],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": 0,
+        "source_excerpt": "Kundalini Activation 21.7 — ביאינג, פרדס חנה",
+        "source_message_timestamp": "2026-07-08"
+      }
+    ],
+    "confidence": 0.94
+  },
+  {
+    "title": "התמסרות — סדנת טנטרה לזוגות מתקדמים",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-07-23",
+    "end_date_only": null,
+    "start_time_only": "20:00",
+    "end_time_only": null,
+    "raw_date_text": "יום חמישי, 23 ביולי 2026, 20:00",
+    "location_name": null,
+    "city": null,
+    "price_text": null,
+    "price_unit": "couple",
+    "price_note": null,
+    "price_details": [],
+    "description": "סדנה טקסית ועמוקה לזוגות מתקדמים, עם מדיטציות עומק, אלכימיה זוגית ועבודה בתוך הזוג בלבד.",
+    "registration_link": "https://85jo3.r.sp1-brevo.net/mk/cl/f/sh/1t6Af4OiGsF4YQF3mKFAPVzAiClKCq/jAmB_szCQKtY",
+    "_image_filename": null,
+    "image_url": null,
+    "contact_info": {
+      "phone": [
+        {
+          "number": "054-4655868",
+          "name": "בן ואפרת"
+        }
+      ],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": 0,
+        "source_excerpt": "התמסרות — 23 ביולי 2026 בשעה 20:00",
+        "source_message_timestamp": "2026-06-28"
+      }
+    ],
+    "confidence": 0.94
+  },
+  {
+    "title": "Heartland Day Festival",
+    "event_type": "other",
+    "status": "scheduled",
+    "date_only": "2026-07-25",
+    "end_date_only": null,
+    "start_time_only": null,
+    "end_time_only": null,
+    "raw_date_text": "25.7 Heartland Day Festival",
+    "location_name": "בטבע, עם בריכה ואמבטיית קרח",
+    "city": null,
+    "price_text": null,
+    "price_unit": null,
+    "price_note": "כרטיסים אחרונים במכירה המוקדמת לפי המייל",
+    "price_details": [],
+    "description": "פסטיבל שבטי לכל המשפחה עם ארבעה מתחמים, 16 סדנאות, אקסטטיק דאנס, מסיבת מים ומעגל שירה.",
+    "registration_link": "https://www.ginjahvibes.com/heartland",
+    "_image_filename": null,
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [
+        "https://www.instagram.com/ginjahvibes/"
+      ],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": 0,
+        "source_excerpt": "Heartland Day Festival — 25.7",
+        "source_message_timestamp": "2026-07-08"
+      }
+    ],
+    "confidence": 0.93
+  },
+  {
+    "title": "ט״ו באב — סדנת חג האהבה לזוגות",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-07-28",
+    "end_date_only": null,
+    "start_time_only": "19:00",
+    "end_time_only": null,
+    "raw_date_text": "יום שלישי, 28 ביולי 2026, 19:00",
+    "location_name": null,
+    "city": null,
+    "price_text": null,
+    "price_unit": "couple",
+    "price_note": null,
+    "price_details": [],
+    "description": "ערב זוגי לכבוד ט״ו באב עם טקסים, טנטרה, אהבה, תשוקה וחיבור. העבודה היא בתוך הזוג בלבד ומתאימה לכל הרמות.",
+    "registration_link": "https://85jo3.r.sp1-brevo.net/mk/cl/f/sh/1t6Af4OiGsGRYYqKxOWvuIAerfhXL2/5ZThvzL7Kjog",
+    "_image_filename": null,
+    "image_url": null,
+    "contact_info": {
+      "phone": [
+        {
+          "number": "054-4655868",
+          "name": "בן ואפרת"
+        }
+      ],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": 0,
+        "source_excerpt": "ט״ו באב חג האהבה — 28 ביולי 2026 בשעה 19:00",
+        "source_message_timestamp": "2026-06-28"
+      }
+    ],
+    "confidence": 0.95
+  },
+  {
+    "title": "חוצות היוצר — 50 שנות יצירה",
+    "event_type": "exhibition",
+    "status": "scheduled",
+    "date_only": "2026-08-02",
+    "end_date_only": "2026-08-13",
+    "start_time_only": null,
+    "end_time_only": null,
+    "raw_date_text": "02.8-13.8",
+    "location_name": "בריכת הסולטן",
+    "city": "ירושלים",
+    "price_text": null,
+    "price_unit": null,
+    "price_note": "מגוון הטבות לחברי מועדון ירושלמי",
+    "price_details": [],
+    "description": "מהדורת 50 שנה של פסטיבל חוצות היוצר בבריכת הסולטן בירושלים.",
+    "registration_link": "https://www.pulseem.com/pulseem/LinkRedirect.axd?LinkID=261158003&ClientID=308716600",
+    "_image_filename": null,
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": 0,
+        "source_excerpt": "חוצות היוצר — 02.8-13.8, בריכת הסולטן",
+        "source_message_timestamp": "2026-06-30"
+      }
+    ],
+    "confidence": 0.91
+  },
+  {
+    "title": "פסטיבל הצחוק ירושלים #2",
+    "event_type": "other",
+    "status": "scheduled",
+    "date_only": "2026-08-04",
+    "end_date_only": "2026-08-27",
+    "start_time_only": null,
+    "end_time_only": null,
+    "raw_date_text": "04.8-27.8",
+    "location_name": null,
+    "city": "ירושלים",
+    "price_text": null,
+    "price_unit": null,
+    "price_note": null,
+    "price_details": [],
+    "description": "פסטיבל סטנדאפ עם שלומי קוריאט, דניאל כהן, שלום אסייג, ליטל שוורץ ואמנים נוספים.",
+    "registration_link": "https://www.pulseem.com/pulseem/LinkRedirect.axd?LinkID=261158007&ClientID=308716600",
+    "_image_filename": null,
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": 0,
+        "source_excerpt": "פסטיבל הצחוק #2 — 04.8-27.8",
+        "source_message_timestamp": "2026-06-30"
+      }
+    ],
+    "confidence": 0.88
+  },
+  {
+    "title": "NewVision Festival",
+    "event_type": "other",
+    "status": "scheduled",
+    "date_only": "2026-08-13",
+    "end_date_only": "2026-08-16",
+    "start_time_only": null,
+    "end_time_only": null,
+    "raw_date_text": "13-16 באוגוסט, 4 ימים ו-3 לילות",
+    "location_name": "חצי אי מוקף אגם, כחצי שעה צפונית ללייפציג",
+    "city": "לייפציג, גרמניה",
+    "price_text": "225€",
+    "price_unit": "person",
+    "price_note": "קוד הנחה למכותבים: gatherings",
+    "price_details": [
+      "225€ – סבב מכירה שני",
+      "250€ – לאחר סיום הסבב"
+    ],
+    "description": "פסטיבל בינלאומי בן ארבעה ימים עם הופעות, סדנאות וטקסים על חצי אי ירוק המוקף באגם, צפונית ללייפציג.",
+    "registration_link": "https://links.responder.co.il/?lid=41788579&sid=643088171&k=a8e4fbbeef5d3c667961267d3f580b88",
+    "_image_filename": null,
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": 0,
+        "source_excerpt": "NewVision Festival — 13-16 באוגוסט בגרמניה",
+        "source_message_timestamp": "2026-06-11"
+      }
+    ],
+    "confidence": 0.94
+  },
+  {
+    "title": "קורס אהבה, יחסים ומיניות 2026",
+    "event_type": "class",
+    "status": "scheduled",
+    "date_only": "2026-09-01",
+    "end_date_only": null,
+    "start_time_only": "18:00",
+    "end_time_only": "21:30",
+    "raw_date_text": "ימי שלישי החל מ-1.9, 18:00-21:30",
+    "location_name": null,
+    "city": "תל אביב",
+    "price_text": null,
+    "price_unit": "person",
+    "price_note": "הרשמה לאחר שיחת התאמה",
+    "price_details": [],
+    "description": "המחזור הרביעי והאחרון השנה של קורס העוסק באהבה, יחסים, מיניות ואומנויות האהבה.",
+    "registration_link": "https://www.yannivgold.com/artsoflove",
+    "_image_filename": null,
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": 0,
+        "source_excerpt": "קורס אהבה, יחסים ומיניות — ימי שלישי החל מ-1.9",
+        "source_message_timestamp": "2026-06-11"
+      }
+    ],
+    "confidence": 0.93
+  },
+  {
+    "title": "פסטיבל ישראל ליוגה",
+    "event_type": "other",
+    "status": "tentative",
+    "date_only": "2026-09-17",
+    "end_date_only": "2026-09-19",
+    "start_time_only": null,
+    "end_time_only": null,
+    "raw_date_text": "17-19 בספטמבר",
+    "location_name": "כפר הנוקדים",
+    "city": "ערד",
+    "price_text": null,
+    "price_unit": null,
+    "price_note": "המכירה טרם נפתחה בזמן שליחת המייל",
+    "price_details": [],
+    "description": "פסטיבל ישראל ליוגה בכפר הנוקדים. המייל מאשר את התאריכים והמיקום ומציין שמכירת הכרטיסים צפויה להיפתח בקרוב.",
+    "registration_link": null,
+    "_image_filename": null,
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": 0,
+        "source_excerpt": "פסטיבל ישראל ליוגה — 17-19 בספטמבר בכפר הנוקדים",
+        "source_message_timestamp": "2026-06-18"
+      }
+    ],
+    "confidence": 0.84
+  },
+  {
+    "title": "LoveCity — פסטיבל חדש בתל אביב",
+    "event_type": "other",
+    "status": "tentative",
+    "date_only": "2026-10-15",
+    "end_date_only": "2026-10-17",
+    "start_time_only": null,
+    "end_time_only": null,
+    "raw_date_text": "15-17.10 (ייתכנו שינויים)",
+    "location_name": null,
+    "city": "תל אביב",
+    "price_text": "220₪",
+    "price_unit": "person",
+    "price_note": "מכירה מוקדמת; התאריכים עשויים להשתנות",
+    "price_details": [
+      "220₪ – כרטיס יומי לחמישי או שבת",
+      "290₪ – כרטיס יומי לשישי"
+    ],
+    "description": "פורמט פסטיבל חדש לסתיו בתל אביב. המארגנים מציינים במפורש שהתאריכים עדיין עשויים להשתנות.",
+    "registration_link": "https://www.yannivgold.com/lovecity",
+    "_image_filename": null,
+    "image_url": null,
+    "contact_info": {
+      "phone": [
+        {
+          "number": "052-5957930",
+          "name": "אביר"
+        }
+      ],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": 0,
+        "source_excerpt": "פסטיבל חדש בתל אביב — 15-17.10, ייתכנו שינויים",
+        "source_message_timestamp": "2026-06-08"
+      }
+    ],
+    "confidence": 0.78
+  },
+  {
+    "title": "Lovolution Festival",
+    "event_type": "other",
+    "status": "scheduled",
+    "date_only": "2026-10-22",
+    "end_date_only": "2026-10-24",
+    "start_time_only": null,
+    "end_time_only": null,
+    "raw_date_text": "22-24.10",
+    "location_name": null,
+    "city": null,
+    "price_text": null,
+    "price_unit": null,
+    "price_note": null,
+    "price_details": [],
+    "description": "פסטיבל קהילתי עתידי של GinjahVibes שהוכרז במייל לצד אירועי הקיץ והסתיו.",
+    "registration_link": "https://www.ginjahvibes.com",
+    "_image_filename": null,
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [
+        "https://www.instagram.com/ginjahvibes/"
+      ],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": 0,
+        "source_excerpt": "פסטיבל הלאבולושיין — 22-24.10",
+        "source_message_timestamp": "2026-07-08"
+      }
+    ],
+    "confidence": 0.82
+  }
+]

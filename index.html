@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>אירועים עתידיים מהמייל</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf0 100%);
+      min-height: 100vh; padding: 24px 16px; direction: rtl;
+    }
+    header { text-align: center; margin-bottom: 32px; }
+    header h1 { font-size: 2rem; color: #2c3e50; margin-bottom: 4px; }
+    header p { color: #6c757d; font-size: 0.95rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px; max-width: 1400px; margin: 0 auto;
+    }
+    .empty-state {
+      grid-column: 1 / -1; max-width: 680px; margin: 40px auto; padding: 48px 28px;
+      border-radius: 18px; background: white; text-align: center;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08); color: #374151;
+    }
+    .empty-state .empty-icon { font-size: 3rem; margin-bottom: 12px; }
+    .empty-state h2 { color: #2c3e50; margin-bottom: 8px; }
+    .empty-state p { line-height: 1.6; color: #6b7280; }
+    .card {
+      border-radius: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      overflow: hidden; display: flex; flex-direction: column;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.14); }
+    .status-banner { background: #e74c3c; color: white; font-size: 0.8rem; font-weight: 700; padding: 4px 12px; text-align: center; }
+    .card-img { background: #f0f0f0; }
+    .card-img img { width: 100%; max-height: 380px; object-fit: contain; display: block; }
+    .card-body { padding: 16px; flex: 1; display: flex; flex-direction: column; gap: 6px; }
+    .card-header-row { display: flex; justify-content: space-between; align-items: center; }
+    .badge { font-size: 0.75rem; padding: 3px 10px; border-radius: 999px; background: #eef2ff; color: #4361ee; font-weight: 600; }
+    .confidence { font-size: 0.7rem; letter-spacing: 1px; }
+    .card-title { font-size: 1.1rem; font-weight: 700; color: #1a202c; margin: 4px 0; line-height: 1.3; }
+    .card-date   { color: #2d6a4f; font-size: 0.9rem; font-weight: 600; }
+    .card-time   { color: #457b9d; font-size: 0.85rem; }
+    .card-location { color: #6b7280; font-size: 0.85rem; }
+    .card-price  { color: #b45309; font-size: 0.85rem; font-weight: 600; }
+    .price-note  { font-size: 0.78rem; font-weight: 400; color: #92400e; }
+    .price-tier  { font-size: 0.8rem; color: #92400e; margin-top: 2px; }
+    .price-tier.expired { color: #aaa; }
+    .expired-label { font-size: 0.72rem; color: #aaa; font-weight: 400; margin-right: 4px; }
+    .card-desc   { color: #374151; font-size: 0.85rem; line-height: 1.5; margin-top: 4px; flex: 1; }
+    .card-footer { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .reg-link { display: inline-block; padding: 6px 14px; background: #4361ee; color: white; border-radius: 8px; font-size: 0.8rem; font-weight: 600; text-decoration: none; }
+    .reg-link:hover { background: #3451d1; }
+    .contact { font-size: 0.78rem; color: #6b7280; }
+    .contact-wa { font-size: 0.78rem; color: #25d366; text-decoration: none; font-weight: 500; }
+    .contact-wa:hover { text-decoration: underline; }
+    .location-private { font-size: 0.78rem; color: #9061d4; font-style: italic; }
+    .cal-links { margin-top: 6px; display: flex; gap: 6px; flex-wrap: wrap; }
+    .cal-link { display: inline-block; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; font-weight: 600; text-decoration: none; }
+    .cal-link.gcal { background: #eef2ff; color: #4361ee; }
+    .cal-link.gcal:hover { background: #dce4ff; }
+    .cal-link.apple { background: #f0f0f0; color: #333; }
+    .cal-link.apple:hover { background: #e0e0e0; }
+    .cal-link.full-cal-apple { background: #2d6a4f; color: white; padding: 8px 20px; border-radius: 8px; font-size: 0.85rem; font-weight: 600; text-decoration: none; }
+    .cal-link.full-cal-apple:hover { background: #1b4332; }
+    .cal-link.full-cal-gcal { background: #4361ee; color: white; padding: 8px 20px; border-radius: 8px; font-size: 0.85rem; font-weight: 600; text-decoration: none; }
+    .cal-link.full-cal-gcal:hover { background: #3451d1; }
+    .cal-link.full-cal-dl { background: #6b7280; color: white; padding: 8px 20px; border-radius: 8px; font-size: 0.85rem; font-weight: 600; text-decoration: none; }
+    .cal-link.full-cal-dl:hover { background: #4b5563; }
+.header-actions { margin-top: 14px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+    footer { text-align: center; margin-top: 40px; color: #9ca3af; font-size: 0.8rem; }
+    .last-updated { font-size: 0.8rem; color: #9ca3af; margin-top: 4px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📬 אירועים עתידיים מהמייל</h1>
+    <p>אירועים עם תאריך עתידי מאומת בלבד &nbsp;|&nbsp; 13 אירועים</p>
+    <p class="last-updated">עודכן לאחרונה: 10/07/2026 09:35</p>
+    <div class="header-actions"><a class="cal-link full-cal-apple" href="webcal://mim21.github.io/gmail-events/calendar.ics">📅 Apple – הרשם</a><a class="cal-link full-cal-gcal" href="https://calendar.google.com/calendar/r?cid=https%3A//mim21.github.io/gmail-events/calendar.ics" target="_blank" rel="noopener noreferrer">📅 Google – הרשם</a><a class="cal-link full-cal-dl" href="calendar.ics" download="אירועים-מהמייל.ics">⬇ הורד ICS</a></div>
+  </header>
+  <div class="grid">
+    <div class="card" id="event-פסטיבל-אושו-ישראל-ה-18-20260716" style="background:white">
+  
+  
+  <div class="card-body">
+    <div class="card-header-row">
+      <span class="badge">📅 אירוע</span>
+      <span class="confidence" style="color:#28a745" title="100%">●●●●●</span>
+    </div>
+    <h2 class="card-title">פסטיבל אושו ישראל ה-18</h2>
+    <div class='card-date'>📅 יום חמישי–שבת, 16–18 ביולי 2026</div>
+    <div class='card-time'>🕐 שעת האירוע תופיע בקישור האירוע</div>
+    
+    
+    <div class='card-desc'>פסטיבל עומק ותיק ברוח אושו עם סדנאות מודעות, הופעות ומסיבות. המייל כולל לוח זמנים מלא ומציין שנותרו כרטיסים מוזלים ומקומות אחרונים בחדרים.</div>
+    <div class="card-footer"><a class="reg-link" href="https://links.responder.co.il/?lid=41841915&amp;sid=643088171&amp;k=a8e4fbbeef5d3c667961267d3f580b88" target="_blank" rel="noopener noreferrer">להרשמה ←</a></div>
+    
+  </div>
+</div>
+<div class="card" id="event-קבלות-שבת-בזאפה-ירושלים-20260717" style="background:white">
+  
+  
+  <div class="card-body">
+    <div class="card-header-row">
+      <span class="badge">🎵 קונצרט</span>
+      <span class="confidence" style="color:#28a745" title="80%">●●●●○</span>
+    </div>
+    <h2 class="card-title">קבלות שבת בזאפה ירושלים</h2>
+    <div class='card-date'>📅 יום שישי 17 ביולי – יום שבת 30 בינואר 2027</div>
+    <div class='card-time'>🕐 שעת האירוע תופיע בקישור האירוע</div>
+    <div class='card-location'>📍 זאפה ירושלים</div>
+    
+    <div class='card-desc'>סדרת קבלות שבת מוזיקליות בזאפה ירושלים. המייל מציג את הסדרה כהטבת קיץ לחברי מועדון ירושלמי.</div>
+    <div class="card-footer"><a class="reg-link" href="https://www.pulseem.com/pulseem/LinkRedirect.axd?LinkID=261158005&amp;ClientID=308716600" target="_blank" rel="noopener noreferrer">להרשמה ←</a></div>
+    
+  </div>
+</div>
+<div class="card" id="event-Kundalini-Activation-טקס-הפעלת-קונדליני-20260721" style="background:white">
+  
+  
+  <div class="card-body">
+    <div class="card-header-row">
+      <span class="badge">🛠 סדנה</span>
+      <span class="confidence" style="color:#28a745" title="100%">●●●●●</span>
+    </div>
+    <h2 class="card-title">Kundalini Activation — טקס הפעלת קונדליני</h2>
+    <div class='card-date'>📅 יום שלישי, 21 ביולי 2026</div>
+    <div class='card-time'>🕐 שעת האירוע תופיע בקישור האירוע</div>
+    <div class='card-location'>📍 ביאינג · פרדס חנה</div>
+    
+    <div class='card-desc'>מסע ריפוי אנרגטי המתמקד בהתחלות וסופים, שחרור רגשי והטענה באנרגיה חדשה, בהנחיית GinjahVibes.</div>
+    <div class="card-footer"><a class="reg-link" href="https://www.ginjahvibes.com/kundaliniactivation" target="_blank" rel="noopener noreferrer">להרשמה ←</a><span class="contact">📷 https://www.instagram.com/ginjahvibes/</span></div>
+    
+  </div>
+</div>
+<div class="card" id="event-התמסרות-סדנת-טנטרה-לזוגות-מתקדמים-20260723-2000" style="background:white">
+  
+  
+  <div class="card-body">
+    <div class="card-header-row">
+      <span class="badge">🛠 סדנה</span>
+      <span class="confidence" style="color:#28a745" title="100%">●●●●●</span>
+    </div>
+    <h2 class="card-title">התמסרות — סדנת טנטרה לזוגות מתקדמים</h2>
+    <div class='card-date'>📅 יום חמישי, 23 ביולי 2026</div>
+    <div class='card-time'>🕐 20:00</div>
+    
+    
+    <div class='card-desc'>סדנה טקסית ועמוקה לזוגות מתקדמים, עם מדיטציות עומק, אלכימיה זוגית ועבודה בתוך הזוג בלבד.</div>
+    <div class="card-footer"><a class="reg-link" href="https://85jo3.r.sp1-brevo.net/mk/cl/f/sh/1t6Af4OiGsF4YQF3mKFAPVzAiClKCq/jAmB_szCQKtY" target="_blank" rel="noopener noreferrer">להרשמה ←</a><a href="https://wa.me/972544655868" target="_blank" rel="noopener noreferrer" class="contact-wa">&#x202A;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="14" height="14" fill="#25d366" style="vertical-align:middle;margin-left:3px"><path d="M16 0C7.163 0 0 7.163 0 16c0 2.833.742 5.488 2.042 7.788L0 32l8.418-2.01A15.938 15.938 0 0016 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm0 29.333a13.27 13.27 0 01-6.784-1.857l-.486-.29-5.001 1.194 1.227-4.865-.317-.5A13.267 13.267 0 012.667 16C2.667 8.636 8.636 2.667 16 2.667S29.333 8.636 29.333 16 23.364 29.333 16 29.333zm7.27-9.778c-.398-.199-2.354-1.162-2.718-1.294-.364-.133-.629-.199-.894.199-.265.398-1.028 1.294-1.26 1.56-.232.265-.464.298-.862.1-.398-.2-1.681-.62-3.203-1.976-1.184-1.056-1.983-2.36-2.215-2.758-.232-.398-.025-.613.174-.811.179-.178.398-.464.597-.696.199-.232.265-.398.398-.663.133-.265.066-.497-.033-.696-.1-.199-.894-2.155-1.225-2.95-.322-.775-.649-.67-.894-.682l-.762-.013c-.265 0-.696.1-1.061.497-.364.398-1.393 1.361-1.393 3.317s1.426 3.847 1.625 4.112c.199.265 2.807 4.285 6.802 6.01.951.41 1.693.655 2.271.839.954.304 1.823.261 2.51.158.766-.114 2.354-.962 2.686-1.891.332-.929.332-1.725.232-1.891-.099-.166-.364-.265-.762-.464z"/></svg> בן ואפרת 054-465-5868&#x202C;</a></div>
+    <div class="cal-links"><a class="cal-link gcal" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%D7%94%D7%AA%D7%9E%D7%A1%D7%A8%D7%95%D7%AA%20%E2%80%94%20%D7%A1%D7%93%D7%A0%D7%AA%20%D7%98%D7%A0%D7%98%D7%A8%D7%94%20%D7%9C%D7%96%D7%95%D7%92%D7%95%D7%AA%20%D7%9E%D7%AA%D7%A7%D7%93%D7%9E%D7%99%D7%9D&amp;dates=20260723T200000/20260723T220000&amp;details=%D7%A1%D7%93%D7%A0%D7%94%20%D7%98%D7%A7%D7%A1%D7%99%D7%AA%20%D7%95%D7%A2%D7%9E%D7%95%D7%A7%D7%94%20%D7%9C%D7%96%D7%95%D7%92%D7%95%D7%AA%20%D7%9E%D7%AA%D7%A7%D7%93%D7%9E%D7%99%D7%9D%2C%20%D7%A2%D7%9D%20%D7%9E%D7%93%D7%99%D7%98%D7%A6%D7%99%D7%95%D7%AA%20%D7%A2%D7%95%D7%9E%D7%A7%2C%20%D7%90%D7%9C%D7%9B%D7%99%D7%9E%D7%99%D7%94%20%D7%96%D7%95%D7%92%D7%99%D7%AA%20%D7%95%D7%A2%D7%91%D7%95%D7%93%D7%94%20%D7%91%D7%AA%D7%95%D7%9A%20%D7%94%D7%96%D7%95%D7%92%20%D7%91%D7%9C%D7%91%D7%93.%0Ahttps%3A//mim21.github.io/gmail-events/%23event-%D7%94%D7%AA%D7%9E%D7%A1%D7%A8%D7%95%D7%AA-%D7%A1%D7%93%D7%A0%D7%AA-%D7%98%D7%A0%D7%98%D7%A8%D7%94-%D7%9C%D7%96%D7%95%D7%92%D7%95%D7%AA-%D7%9E%D7%AA%D7%A7%D7%93%D7%9E%D7%99%D7%9D-20260723-2000" target="_blank" rel="noopener noreferrer">📅 Google</a><a class="cal-link apple" href="data:text/calendar;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOi0vL2dtYWlsLWV2ZW50cy8vcGlwZWxpbmUvL0hFDQpCRUdJTjpWRVZFTlQNClVJRDo2MDJlM2U1ODc4NjNlNDM2MjczZWQxMmVhODIxZmJmMUBnbWFpbC1ldmVudHMNCkRUU1RBTVA6MjAyNjA3MTBUMDYzNTUzWg0KRFRTVEFSVDoyMDI2MDcyM1QyMDAwMDANCkRURU5EOjIwMjYwNzIzVDIyMDAwMA0KU1VNTUFSWTrXlNeq157Xodeo15XXqiDigJQg16HXk9eg16og15jXoNeY16jXlCDXnNeW15XXkteV16og157Xqten15PXnteZ150NCkRFU0NSSVBUSU9OOteh15PXoNeUINeY16fXodeZ16og15XXotee15XXp9eUINec15bXldeS15XXqiDXnteq16fXk9ee15nXnVwsINei150g157Xk9eZ15jXpteZ15XXqiDXoteV157Xp1wsINeQ15zXm9eZ157XmdeUINeW15XXkteZ16og15XXoteR15XXk9eUINeR16rXldeaINeU15bXldeSINeR15zXkdeTLg0KVVJMOmh0dHBzOi8vbWltMjEuZ2l0aHViLmlvL2dtYWlsLWV2ZW50cy8jZXZlbnQtJUQ3JTk0JUQ3JUFBJUQ3JTlFJUQ3JUExJUQ3JUE4JUQ3JTk1JUQ3JUFBLSVENyVBMSVENyU5MyVENyVBMCVENyVBQS0lRDclOTglRDclQTAlRDclOTglRDclQTglRDclOTQtJUQ3JTlDJUQ3JTk2JUQ3JTk1JUQ3JTkyJUQ3JTk1JUQ3JUFBLSVENyU5RSVENyVBQSVENyVBNyVENyU5MyVENyU5RSVENyU5OSVENyU5RC0yMDI2MDcyMy0yMDAwDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=" download="התמסרות — סדנת טנטרה לזוגות מתקדמים.ics">📅 Apple</a></div>
+  </div>
+</div>
+<div class="card" id="event-Heartland-Day-Festival-20260725" style="background:white">
+  
+  
+  <div class="card-body">
+    <div class="card-header-row">
+      <span class="badge">📅 אירוע</span>
+      <span class="confidence" style="color:#28a745" title="100%">●●●●●</span>
+    </div>
+    <h2 class="card-title">Heartland Day Festival</h2>
+    <div class='card-date'>📅 יום שבת, 25 ביולי 2026</div>
+    <div class='card-time'>🕐 שעת האירוע תופיע בקישור האירוע</div>
+    <div class='card-location'>📍 בטבע, עם בריכה ואמבטיית קרח</div>
+    
+    <div class='card-desc'>פסטיבל שבטי לכל המשפחה עם ארבעה מתחמים, 16 סדנאות, אקסטטיק דאנס, מסיבת מים ומעגל שירה.</div>
+    <div class="card-footer"><a class="reg-link" href="https://www.ginjahvibes.com/heartland" target="_blank" rel="noopener noreferrer">להרשמה ←</a><span class="contact">📷 https://www.instagram.com/ginjahvibes/</span></div>
+    
+  </div>
+</div>
+<div class="card" id="event-ט-ו-באב-סדנת-חג-האהבה-לזוגות-20260728-1900" style="background:white">
+  
+  
+  <div class="card-body">
+    <div class="card-header-row">
+      <span class="badge">🛠 סדנה</span>
+      <span class="confidence" style="color:#28a745" title="100%">●●●●●</span>
+    </div>
+    <h2 class="card-title">ט״ו באב — סדנת חג האהבה לזוגות</h2>
+    <div class='card-date'>📅 יום שלישי, 28 ביולי 2026</div>
+    <div class='card-time'>🕐 19:00</div>
+    
+    
+    <div class='card-desc'>ערב זוגי לכבוד ט״ו באב עם טקסים, טנטרה, אהבה, תשוקה וחיבור. העבודה היא בתוך הזוג בלבד ומתאימה לכל הרמות.</div>
+    <div class="card-footer"><a class="reg-link" href="https://85jo3.r.sp1-brevo.net/mk/cl/f/sh/1t6Af4OiGsGRYYqKxOWvuIAerfhXL2/5ZThvzL7Kjog" target="_blank" rel="noopener noreferrer">להרשמה ←</a><a href="https://wa.me/972544655868" target="_blank" rel="noopener noreferrer" class="contact-wa">&#x202A;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="14" height="14" fill="#25d366" style="vertical-align:middle;margin-left:3px"><path d="M16 0C7.163 0 0 7.163 0 16c0 2.833.742 5.488 2.042 7.788L0 32l8.418-2.01A15.938 15.938 0 0016 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm0 29.333a13.27 13.27 0 01-6.784-1.857l-.486-.29-5.001 1.194 1.227-4.865-.317-.5A13.267 13.267 0 012.667 16C2.667 8.636 8.636 2.667 16 2.667S29.333 8.636 29.333 16 23.364 29.333 16 29.333zm7.27-9.778c-.398-.199-2.354-1.162-2.718-1.294-.364-.133-.629-.199-.894.199-.265.398-1.028 1.294-1.26 1.56-.232.265-.464.298-.862.1-.398-.2-1.681-.62-3.203-1.976-1.184-1.056-1.983-2.36-2.215-2.758-.232-.398-.025-.613.174-.811.179-.178.398-.464.597-.696.199-.232.265-.398.398-.663.133-.265.066-.497-.033-.696-.1-.199-.894-2.155-1.225-2.95-.322-.775-.649-.67-.894-.682l-.762-.013c-.265 0-.696.1-1.061.497-.364.398-1.393 1.361-1.393 3.317s1.426 3.847 1.625 4.112c.199.265 2.807 4.285 6.802 6.01.951.41 1.693.655 2.271.839.954.304 1.823.261 2.51.158.766-.114 2.354-.962 2.686-1.891.332-.929.332-1.725.232-1.891-.099-.166-.364-.265-.762-.464z"/></svg> בן ואפרת 054-465-5868&#x202C;</a></div>
+    <div class="cal-links"><a class="cal-link gcal" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%D7%98%D7%B4%D7%95%20%D7%91%D7%90%D7%91%20%E2%80%94%20%D7%A1%D7%93%D7%A0%D7%AA%20%D7%97%D7%92%20%D7%94%D7%90%D7%94%D7%91%D7%94%20%D7%9C%D7%96%D7%95%D7%92%D7%95%D7%AA&amp;dates=20260728T190000/20260728T210000&amp;details=%D7%A2%D7%A8%D7%91%20%D7%96%D7%95%D7%92%D7%99%20%D7%9C%D7%9B%D7%91%D7%95%D7%93%20%D7%98%D7%B4%D7%95%20%D7%91%D7%90%D7%91%20%D7%A2%D7%9D%20%D7%98%D7%A7%D7%A1%D7%99%D7%9D%2C%20%D7%98%D7%A0%D7%98%D7%A8%D7%94%2C%20%D7%90%D7%94%D7%91%D7%94%2C%20%D7%AA%D7%A9%D7%95%D7%A7%D7%94%20%D7%95%D7%97%D7%99%D7%91%D7%95%D7%A8.%20%D7%94%D7%A2%D7%91%D7%95%D7%93%D7%94%20%D7%94%D7%99%D7%90%20%D7%91%D7%AA%D7%95%D7%9A%20%D7%94%D7%96%D7%95%D7%92%20%D7%91%D7%9C%D7%91%D7%93%20%D7%95%D7%9E%D7%AA%D7%90%D7%99%D7%9E%D7%94%20%D7%9C%D7%9B%D7%9C%20%D7%94%D7%A8%D7%9E%D7%95%D7%AA.%0Ahttps%3A//mim21.github.io/gmail-events/%23event-%D7%98-%D7%95-%D7%91%D7%90%D7%91-%D7%A1%D7%93%D7%A0%D7%AA-%D7%97%D7%92-%D7%94%D7%90%D7%94%D7%91%D7%94-%D7%9C%D7%96%D7%95%D7%92%D7%95%D7%AA-20260728-1900" target="_blank" rel="noopener noreferrer">📅 Google</a><a class="cal-link apple" href="data:text/calendar;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOi0vL2dtYWlsLWV2ZW50cy8vcGlwZWxpbmUvL0hFDQpCRUdJTjpWRVZFTlQNClVJRDowNjQwNDgwNTY5NDExMjRmOTE5NmZjMzI1NjViMWYzMEBnbWFpbC1ldmVudHMNCkRUU1RBTVA6MjAyNjA3MTBUMDYzNTUzWg0KRFRTVEFSVDoyMDI2MDcyOFQxOTAwMDANCkRURU5EOjIwMjYwNzI4VDIxMDAwMA0KU1VNTUFSWTrXmNe015Ug15HXkNeRIOKAlCDXodeT16DXqiDXl9eSINeU15DXlNeR15Qg15zXlteV15LXldeqDQpERVNDUklQVElPTjrXoteo15Eg15bXldeS15kg15zXm9eR15XXkyDXmNe015Ug15HXkNeRINei150g15jXp9eh15nXnVwsINeY16DXmNeo15RcLCDXkNeU15HXlFwsINeq16nXlden15Qg15XXl9eZ15HXldeoLiDXlNei15HXldeT15Qg15TXmdeQINeR16rXldeaINeU15bXldeSINeR15zXkdeTINeV157XqteQ15nXnteUINec15vXnCDXlNeo157XldeqLg0KVVJMOmh0dHBzOi8vbWltMjEuZ2l0aHViLmlvL2dtYWlsLWV2ZW50cy8jZXZlbnQtJUQ3JTk4LSVENyU5NS0lRDclOTElRDclOTAlRDclOTEtJUQ3JUExJUQ3JTkzJUQ3JUEwJUQ3JUFBLSVENyU5NyVENyU5Mi0lRDclOTQlRDclOTAlRDclOTQlRDclOTElRDclOTQtJUQ3JTlDJUQ3JTk2JUQ3JTk1JUQ3JTkyJUQ3JTk1JUQ3JUFBLTIwMjYwNzI4LTE5MDANCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==" download="ט״ו באב — סדנת חג האהבה לזוגות.ics">📅 Apple</a></div>
+  </div>
+</div>
+<div class="card" id="event-חוצות-היוצר-50-שנות-יצירה-20260802" style="background:white">
+  
+  
+  <div class="card-body">
+    <div class="card-header-row">
+      <span class="badge">🖼 תערוכה</span>
+      <span class="confidence" style="color:#28a745" title="100%">●●●●●</span>
+    </div>
+    <h2 class="card-title">חוצות היוצר — 50 שנות יצירה</h2>
+    <div class='card-date'>📅 יום ראשון–חמישי, 2–13 באוגוסט 2026</div>
+    <div class='card-time'>🕐 שעת האירוע תופיע בקישור האירוע</div>
+    <div class='card-location'>📍 בריכת הסולטן · ירושלים</div>
+    
+    <div class='card-desc'>מהדורת 50 שנה של פסטיבל חוצות היוצר בבריכת הסולטן בירושלים.</div>
+    <div class="card-footer"><a class="reg-link" href="https://www.pulseem.com/pulseem/LinkRedirect.axd?LinkID=261158003&amp;ClientID=308716600" target="_blank" rel="noopener noreferrer">להרשמה ←</a></div>
+    
+  </div>
+</div>
+<div class="card" id="event-פסטיבל-הצחוק-ירושלים-2-20260804" style="background:white">
+  
+  
+  <div class="card-body">
+    <div class="card-header-row">
+      <span class="badge">📅 אירוע</span>
+      <span class="confidence" style="color:#28a745" title="80%">●●●●○</span>
+    </div>
+    <h2 class="card-title">פסטיבל הצחוק ירושלים #2</h2>
+    <div class='card-date'>📅 יום שלישי–חמישי, 4–27 באוגוסט 2026</div>
+    <div class='card-time'>🕐 שעת האירוע תופיע בקישור האירוע</div>
+    <div class='card-location'>📍 ירושלים</div>
+    
+    <div class='card-desc'>פסטיבל סטנדאפ עם שלומי קוריאט, דניאל כהן, שלום אסייג, ליטל שוורץ ואמנים נוספים.</div>
+    <div class="card-footer"><a class="reg-link" href="https://www.pulseem.com/pulseem/LinkRedirect.axd?LinkID=261158007&amp;ClientID=308716600" target="_blank" rel="noopener noreferrer">להרשמה ←</a></div>
+    
+  </div>
+</div>
+<div class="card" id="event-NewVision-Festival-20260813" style="background:white">
+  
+  
+  <div class="card-body">
+    <div class="card-header-row">
+      <span class="badge">📅 אירוע</span>
+      <span class="confidence" style="color:#28a745" title="100%">●●●●●</span>
+    </div>
+    <h2 class="card-title">NewVision Festival</h2>
+    <div class='card-date'>📅 יום חמישי–ראשון, 13–16 באוגוסט 2026</div>
+    <div class='card-time'>🕐 שעת האירוע תופיע בקישור האירוע</div>
+    <div class='card-location'>📍 חצי אי מוקף אגם, כחצי שעה צפונית ללייפציג · לייפציג, גרמניה</div>
+    <div class='card-price'>💰 <div class='price-tier'>225€ – סבב מכירה שני</div><div class='price-tier'>250€ – לאחר סיום הסבב</div></div>
+    <div class='card-desc'>פסטיבל בינלאומי בן ארבעה ימים עם הופעות, סדנאות וטקסים על חצי אי ירוק המוקף באגם, צפונית ללייפציג.</div>
+    <div class="card-footer"><a class="reg-link" href="https://links.responder.co.il/?lid=41788579&amp;sid=643088171&amp;k=a8e4fbbeef5d3c667961267d3f580b88" target="_blank" rel="noopener noreferrer">להרשמה ←</a></div>
+    
+  </div>
+</div>
+<div class="card" id="event-קורס-אהבה-יחסים-ומיניות-2026-20260901-1800" style="background:white">
+  
+  
+  <div class="card-body">
+    <div class="card-header-row">
+      <span class="badge">📚 שיעור</span>
+      <span class="confidence" style="color:#28a745" title="100%">●●●●●</span>
+    </div>
+    <h2 class="card-title">קורס אהבה, יחסים ומיניות 2026</h2>
+    <div class='card-date'>📅 יום שלישי, 1 בספטמבר 2026</div>
+    <div class='card-time'>🕐 18:00 - 21:30</div>
+    <div class='card-location'>📍 תל אביב</div>
+    
+    <div class='card-desc'>המחזור הרביעי והאחרון השנה של קורס העוסק באהבה, יחסים, מיניות ואומנויות האהבה.</div>
+    <div class="card-footer"><a class="reg-link" href="https://www.yannivgold.com/artsoflove" target="_blank" rel="noopener noreferrer">להרשמה ←</a></div>
+    <div class="cal-links"><a class="cal-link gcal" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%D7%A7%D7%95%D7%A8%D7%A1%20%D7%90%D7%94%D7%91%D7%94%2C%20%D7%99%D7%97%D7%A1%D7%99%D7%9D%20%D7%95%D7%9E%D7%99%D7%A0%D7%99%D7%95%D7%AA%202026&amp;dates=20260901T180000/20260901T213000&amp;details=%D7%94%D7%9E%D7%97%D7%96%D7%95%D7%A8%20%D7%94%D7%A8%D7%91%D7%99%D7%A2%D7%99%20%D7%95%D7%94%D7%90%D7%97%D7%A8%D7%95%D7%9F%20%D7%94%D7%A9%D7%A0%D7%94%20%D7%A9%D7%9C%20%D7%A7%D7%95%D7%A8%D7%A1%20%D7%94%D7%A2%D7%95%D7%A1%D7%A7%20%D7%91%D7%90%D7%94%D7%91%D7%94%2C%20%D7%99%D7%97%D7%A1%D7%99%D7%9D%2C%20%D7%9E%D7%99%D7%A0%D7%99%D7%95%D7%AA%20%D7%95%D7%90%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA%20%D7%94%D7%90%D7%94%D7%91%D7%94.%0Ahttps%3A//mim21.github.io/gmail-events/%23event-%D7%A7%D7%95%D7%A8%D7%A1-%D7%90%D7%94%D7%91%D7%94-%D7%99%D7%97%D7%A1%D7%99%D7%9D-%D7%95%D7%9E%D7%99%D7%A0%D7%99%D7%95%D7%AA-2026-20260901-1800&amp;location=%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91" target="_blank" rel="noopener noreferrer">📅 Google</a><a class="cal-link apple" href="data:text/calendar;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOi0vL2dtYWlsLWV2ZW50cy8vcGlwZWxpbmUvL0hFDQpCRUdJTjpWRVZFTlQNClVJRDowNTVmMmYzNDkzNjhkYWFkNjkzM2VjODNlYWJlNzlmOEBnbWFpbC1ldmVudHMNCkRUU1RBTVA6MjAyNjA3MTBUMDYzNTUzWg0KRFRTVEFSVDoyMDI2MDkwMVQxODAwMDANCkRURU5EOjIwMjYwOTAxVDIxMzAwMA0KU1VNTUFSWTrXp9eV16jXoSDXkNeU15HXlFwsINeZ15fXodeZ150g15XXnteZ16DXmdeV16ogMjAyNg0KREVTQ1JJUFRJT04615TXnteX15bXldeoINeU16jXkdeZ16LXmSDXldeU15DXl9eo15XXnyDXlNep16DXlCDXqdecINen15XXqNehINeU16LXldeh16cg15HXkNeU15HXlFwsINeZ15fXodeZ151cLCDXnteZ16DXmdeV16og15XXkNeV157XoNeV15nXldeqINeU15DXlNeR15QuDQpMT0NBVElPTjrXqtecINeQ15HXmdeRDQpVUkw6aHR0cHM6Ly9taW0yMS5naXRodWIuaW8vZ21haWwtZXZlbnRzLyNldmVudC0lRDclQTclRDclOTUlRDclQTglRDclQTEtJUQ3JTkwJUQ3JTk0JUQ3JTkxJUQ3JTk0LSVENyU5OSVENyU5NyVENyVBMSVENyU5OSVENyU5RC0lRDclOTUlRDclOUUlRDclOTklRDclQTAlRDclOTklRDclOTUlRDclQUEtMjAyNi0yMDI2MDkwMS0xODAwDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=" download="קורס אהבה, יחסים ומיניות 2026.ics">📅 Apple</a></div>
+  </div>
+</div>
+<div class="card" id="event-פסטיבל-ישראל-ליוגה-20260917" style="background:#f9f9f9">
+  <div class="status-banner">❓ מותנה</div>
+  
+  <div class="card-body">
+    <div class="card-header-row">
+      <span class="badge">📅 אירוע</span>
+      <span class="confidence" style="color:#28a745" title="80%">●●●●○</span>
+    </div>
+    <h2 class="card-title">פסטיבל ישראל ליוגה</h2>
+    <div class='card-date'>📅 יום חמישי–שבת, 17–19 בספטמבר 2026</div>
+    <div class='card-time'>🕐 שעת האירוע לא צוינה</div>
+    <div class='card-location'>📍 כפר הנוקדים · ערד</div>
+    
+    <div class='card-desc'>פסטיבל ישראל ליוגה בכפר הנוקדים. המייל מאשר את התאריכים והמיקום ומציין שמכירת הכרטיסים צפויה להיפתח בקרוב.</div>
+    <div class="card-footer"></div>
+    
+  </div>
+</div>
+<div class="card" id="event-LoveCity-פסטיבל-חדש-בתל-אביב-20261015" style="background:#f9f9f9">
+  <div class="status-banner">❓ מותנה</div>
+  
+  <div class="card-body">
+    <div class="card-header-row">
+      <span class="badge">📅 אירוע</span>
+      <span class="confidence" style="color:#ffc107" title="80%">●●●●○</span>
+    </div>
+    <h2 class="card-title">LoveCity — פסטיבל חדש בתל אביב</h2>
+    <div class='card-date'>📅 יום חמישי–שבת, 15–17 באוקטובר 2026</div>
+    <div class='card-time'>🕐 שעת האירוע תופיע בקישור האירוע</div>
+    <div class='card-location'>📍 תל אביב</div>
+    <div class='card-price'>💰 <div class='price-tier'>220₪ – כרטיס יומי לחמישי או שבת</div><div class='price-tier'>290₪ – כרטיס יומי לשישי</div></div>
+    <div class='card-desc'>פורמט פסטיבל חדש לסתיו בתל אביב. המארגנים מציינים במפורש שהתאריכים עדיין עשויים להשתנות.</div>
+    <div class="card-footer"><a class="reg-link" href="https://www.yannivgold.com/lovecity" target="_blank" rel="noopener noreferrer">להרשמה ←</a><a href="https://wa.me/972525957930" target="_blank" rel="noopener noreferrer" class="contact-wa">&#x202A;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="14" height="14" fill="#25d366" style="vertical-align:middle;margin-left:3px"><path d="M16 0C7.163 0 0 7.163 0 16c0 2.833.742 5.488 2.042 7.788L0 32l8.418-2.01A15.938 15.938 0 0016 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm0 29.333a13.27 13.27 0 01-6.784-1.857l-.486-.29-5.001 1.194 1.227-4.865-.317-.5A13.267 13.267 0 012.667 16C2.667 8.636 8.636 2.667 16 2.667S29.333 8.636 29.333 16 23.364 29.333 16 29.333zm7.27-9.778c-.398-.199-2.354-1.162-2.718-1.294-.364-.133-.629-.199-.894.199-.265.398-1.028 1.294-1.26 1.56-.232.265-.464.298-.862.1-.398-.2-1.681-.62-3.203-1.976-1.184-1.056-1.983-2.36-2.215-2.758-.232-.398-.025-.613.174-.811.179-.178.398-.464.597-.696.199-.232.265-.398.398-.663.133-.265.066-.497-.033-.696-.1-.199-.894-2.155-1.225-2.95-.322-.775-.649-.67-.894-.682l-.762-.013c-.265 0-.696.1-1.061.497-.364.398-1.393 1.361-1.393 3.317s1.426 3.847 1.625 4.112c.199.265 2.807 4.285 6.802 6.01.951.41 1.693.655 2.271.839.954.304 1.823.261 2.51.158.766-.114 2.354-.962 2.686-1.891.332-.929.332-1.725.232-1.891-.099-.166-.364-.265-.762-.464z"/></svg> אביר 052-595-7930&#x202C;</a></div>
+    
+  </div>
+</div>
+<div class="card" id="event-Lovolution-Festival-20261022" style="background:white">
+  
+  
+  <div class="card-body">
+    <div class="card-header-row">
+      <span class="badge">📅 אירוע</span>
+      <span class="confidence" style="color:#28a745" title="80%">●●●●○</span>
+    </div>
+    <h2 class="card-title">Lovolution Festival</h2>
+    <div class='card-date'>📅 יום חמישי–שבת, 22–24 באוקטובר 2026</div>
+    <div class='card-time'>🕐 שעת האירוע תופיע בקישור האירוע</div>
+    
+    
+    <div class='card-desc'>פסטיבל קהילתי עתידי של GinjahVibes שהוכרז במייל לצד אירועי הקיץ והסתיו.</div>
+    <div class="card-footer"><a class="reg-link" href="https://www.ginjahvibes.com" target="_blank" rel="noopener noreferrer">להרשמה ←</a><span class="contact">📷 https://www.instagram.com/ginjahvibes/</span></div>
+    
+  </div>
+</div>
+  </div>
+  <footer>נבנה מסריקת Gmail · 10/07/2026 09:35</footer>
+</body>
+</html>
