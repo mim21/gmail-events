@@ -5,7 +5,7 @@ X-WR-CALNAME:אירועים מהמייל
 X-WR-TIMEZONE:Asia/Jerusalem
 BEGIN:VEVENT
 UID:ebd388b1ee1b45cf0dfc94ddd68be709@gmail-events
-DTSTAMP:20260710T140840Z
+DTSTAMP:20260719T210959Z
 DTSTART:20260721T202000
 DTEND:20260721T232300
 SUMMARY:Kundalini Activation — טקס הפעלת קונדליני
@@ -15,7 +15,7 @@ URL:https://mim21.github.io/gmail-events/#event-Kundalini-Activation-%D7%98%D7%A
 END:VEVENT
 BEGIN:VEVENT
 UID:602e3e587863e436273ed12ea821fbf1@gmail-events
-DTSTAMP:20260710T140840Z
+DTSTAMP:20260719T210959Z
 DTSTART:20260723T200000
 DTEND:20260723T220000
 SUMMARY:התמסרות — סדנת טנטרה לזוגות מתקדמים
@@ -23,8 +23,18 @@ DESCRIPTION:סדנה טקסית ועמוקה לזוגות מתקדמים\, עם 
 URL:https://mim21.github.io/gmail-events/#event-%D7%94%D7%AA%D7%9E%D7%A1%D7%A8%D7%95%D7%AA-%D7%A1%D7%93%D7%A0%D7%AA-%D7%98%D7%A0%D7%98%D7%A8%D7%94-%D7%9C%D7%96%D7%95%D7%92%D7%95%D7%AA-%D7%9E%D7%AA%D7%A7%D7%93%D7%9E%D7%99%D7%9D-20260723-2000
 END:VEVENT
 BEGIN:VEVENT
+UID:2d78b59a4350ea496f7225e2aa8d2e2d@gmail-events
+DTSTAMP:20260719T210959Z
+DTSTART:20260724T203000
+DTEND:20260724T223000
+SUMMARY:OPEN HEARTS Date Night
+DESCRIPTION:ערב היכרויות אינטימי לזוגות וליחידים/ות באיזון\, עם מינגלינג\, ספיד דייטינג ומרחב חופשי בהמשך הערב.
+LOCATION:הכתובת המדויקת תישלח לנרשמים · כפר יונה
+URL:https://mim21.github.io/gmail-events/#event-OPEN-HEARTS-Date-Night-20260724-2030
+END:VEVENT
+BEGIN:VEVENT
 UID:8d3d2307cff1c32653b510b2c40adfe0@gmail-events
-DTSTAMP:20260710T140840Z
+DTSTAMP:20260719T210959Z
 DTSTART:20260725T140000
 DTEND:20260725T220000
 SUMMARY:Heartland Day Festival
@@ -34,7 +44,7 @@ URL:https://mim21.github.io/gmail-events/#event-Heartland-Day-Festival-20260725-
 END:VEVENT
 BEGIN:VEVENT
 UID:064048056941124f9196fc32565b1f30@gmail-events
-DTSTAMP:20260710T140840Z
+DTSTAMP:20260719T210959Z
 DTSTART:20260728T190000
 DTEND:20260728T210000
 SUMMARY:ט״ו באב — סדנת חג האהבה לזוגות
@@ -42,8 +52,35 @@ DESCRIPTION:ערב זוגי לכבוד ט״ו באב עם טקסים\, טנטר�
 URL:https://mim21.github.io/gmail-events/#event-%D7%98-%D7%95-%D7%91%D7%90%D7%91-%D7%A1%D7%93%D7%A0%D7%AA-%D7%97%D7%92-%D7%94%D7%90%D7%94%D7%91%D7%94-%D7%9C%D7%96%D7%95%D7%92%D7%95%D7%AA-20260728-1900
 END:VEVENT
 BEGIN:VEVENT
+UID:77ca4bd01d569892d9dfa7ae80f99c3f@gmail-events
+DTSTAMP:20260719T210959Z
+DTSTART:20260808T200000
+DTEND:20260808T220000
+SUMMARY:פרפרים בבטן — טנטרה לזוגות מתחילים
+DESCRIPTION:סדנת מבוא עדינה לזוגות מתחילים\, עם תקשורת זוגית בתנועה\, זרימת אנרגיה\, טקסים זוגיים ומגע מענג בתוך הזוג בלבד.
+URL:https://mim21.github.io/gmail-events/#event-%D7%A4%D7%A8%D7%A4%D7%A8%D7%99%D7%9D-%D7%91%D7%91%D7%98%D7%9F-%D7%98%D7%A0%D7%98%D7%A8%D7%94-%D7%9C%D7%96%D7%95%D7%92%D7%95%D7%AA-%D7%9E%D7%AA%D7%97%D7%99%D7%9C%D7%99%D7%9D-20260808-2000
+END:VEVENT
+BEGIN:VEVENT
+UID:9ec8497e8f394493cd21d9ef961e9654@gmail-events
+DTSTAMP:20260719T210959Z
+DTSTART:20260813T200000
+DTEND:20260813T220000
+SUMMARY:להיות באהבה — חגיגה של טנטרה\, אהבה ומיניות
+DESCRIPTION:סדנת טנטרה מתקדמת לזוגות העוסקת באהבה כמצב הוויה\, טקסים טנטריים\, זרימת קונדליני\, גבולות\, תשוקה ומיניות.
+URL:https://mim21.github.io/gmail-events/#event-%D7%9C%D7%94%D7%99%D7%95%D7%AA-%D7%91%D7%90%D7%94%D7%91%D7%94-%D7%97%D7%92%D7%99%D7%92%D7%94-%D7%A9%D7%9C-%D7%98%D7%A0%D7%98%D7%A8%D7%94-%D7%90%D7%94%D7%91%D7%94-%D7%95%D7%9E%D7%99%D7%A0%D7%99%D7%95%D7%AA-20260813-2000
+END:VEVENT
+BEGIN:VEVENT
+UID:2d4d88a461550b6882539d3d5e7db50e@gmail-events
+DTSTAMP:20260719T210959Z
+DTSTART:20260820T200000
+DTEND:20260820T220000
+SUMMARY:לגעת באהבה — סודות המגע המודע
+DESCRIPTION:סדנה זוגית על מגע מודע\, סוגי מגע והתאמתם\, והעמקת העונג לנותן ולמקבל. העבודה היא בתוך הזוג בלבד.
+URL:https://mim21.github.io/gmail-events/#event-%D7%9C%D7%92%D7%A2%D7%AA-%D7%91%D7%90%D7%94%D7%91%D7%94-%D7%A1%D7%95%D7%93%D7%95%D7%AA-%D7%94%D7%9E%D7%92%D7%A2-%D7%94%D7%9E%D7%95%D7%93%D7%A2-20260820-2000
+END:VEVENT
+BEGIN:VEVENT
 UID:055f2f349368daad6933ec83eabe79f8@gmail-events
-DTSTAMP:20260710T140840Z
+DTSTAMP:20260719T210959Z
 DTSTART:20260901T180000
 DTEND:20260901T213000
 SUMMARY:קורס אהבה\, יחסים ומיניות 2026
@@ -53,7 +90,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%A7%D7%95%D7%A8%D7%A1-%D7%90%
 END:VEVENT
 BEGIN:VEVENT
 UID:16731bda4c88ab746a023ce1c1096eff@gmail-events
-DTSTAMP:20260710T140840Z
+DTSTAMP:20260719T210959Z
 DTSTART:20261022T160000
 DTEND:20261023T160000
 SUMMARY:Lovolution Festival
