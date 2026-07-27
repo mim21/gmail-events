@@ -4,18 +4,8 @@ PRODID:-//gmail-events//pipeline//HE
 X-WR-CALNAME:אירועים מהמייל
 X-WR-TIMEZONE:Asia/Jerusalem
 BEGIN:VEVENT
-UID:a25da0eb90d4d15a780266ec4c0cac61@gmail-events
-DTSTAMP:20260726T050428Z
-DTSTART:20260727T190000
-DTEND:20260727T210000
-SUMMARY:התנהלות פיננסית טובה יותר — מפגש המשך
-DESCRIPTION:מפגש המשך בסדרה מקוונת הכוללת טיפים וכלים מעשיים לצמצום הוצאות ולשיפור ההתנהלות הפיננסית.\nhttps://mim21.github.io/gmail-events/#event-התנהלות-פיננסית-טובה-יותר-מפגש-המשך-20260727-1900
-LOCATION:אונליין
-URL:https://mim21.github.io/gmail-events/#event-%D7%94%D7%AA%D7%A0%D7%94%D7%9C%D7%95%D7%AA-%D7%A4%D7%99%D7%A0%D7%A0%D7%A1%D7%99%D7%AA-%D7%98%D7%95%D7%91%D7%94-%D7%99%D7%95%D7%AA%D7%A8-%D7%9E%D7%A4%D7%92%D7%A9-%D7%94%D7%9E%D7%A9%D7%9A-20260727-1900
-END:VEVENT
-BEGIN:VEVENT
 UID:e823e37d692c499af7e8e3dd13cc2ac3@gmail-events
-DTSTAMP:20260726T050428Z
+DTSTAMP:20260727T170317Z
 DTSTART:20260728T190000
 DTEND:20260728T210000
 SUMMARY:בן ואפרת — ט״ו באב — סדנת חג האהבה לזוגות
@@ -25,7 +15,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%98-%D7%95-%D7%91%D7%90%D7%91
 END:VEVENT
 BEGIN:VEVENT
 UID:915371c4773b661bd49caf1323cfb15f@gmail-events
-DTSTAMP:20260726T050428Z
+DTSTAMP:20260727T170317Z
 DTSTART:20260728T163000
 DTEND:20260728T183000
 SUMMARY:פסטיבל ישראל — אירוע הפתיחה
@@ -35,7 +25,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%A4%D7%A1%D7%98%D7%99%D7%91%D
 END:VEVENT
 BEGIN:VEVENT
 UID:8cacd6a5b182aa2c319e517f37724960@gmail-events
-DTSTAMP:20260726T050428Z
+DTSTAMP:20260727T170317Z
 DTSTART:20260729T203000
 DTEND:20260729T223000
 SUMMARY:כנר על הגג — המחזמר
@@ -45,7 +35,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%9B%D7%A0%D7%A8-%D7%A2%D7%9C-
 END:VEVENT
 BEGIN:VEVENT
 UID:32ad79a6bb27f4f34faa40157eb62f93@gmail-events
-DTSTAMP:20260726T050428Z
+DTSTAMP:20260727T170317Z
 DTSTART:20260806T200000
 DTEND:20260806T220000
 SUMMARY:בן ואפרת — פרפרים בבטן — טנטרה לזוגות מתחילים
@@ -55,7 +45,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%A4%D7%A8%D7%A4%D7%A8%D7%99%D
 END:VEVENT
 BEGIN:VEVENT
 UID:356470d1dfa72d571b37fbe142da9a6a@gmail-events
-DTSTAMP:20260726T050428Z
+DTSTAMP:20260727T170317Z
 DTSTART:20260813T200000
 DTEND:20260813T220000
 SUMMARY:בן ואפרת — להיות באהבה — חגיגה של טנטרה\, אהבה ומיניות
@@ -65,7 +55,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%9C%D7%94%D7%99%D7%95%D7%AA-%
 END:VEVENT
 BEGIN:VEVENT
 UID:cb13b4c618c0e795a204e59a0c766613@gmail-events
-DTSTAMP:20260726T050428Z
+DTSTAMP:20260727T170317Z
 DTSTART:20260820T200000
 DTEND:20260820T220000
 SUMMARY:בן ואפרת — לגעת באהבה — סודות המגע המודע
@@ -75,7 +65,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%9C%D7%92%D7%A2%D7%AA-%D7%91%
 END:VEVENT
 BEGIN:VEVENT
 UID:055f2f349368daad6933ec83eabe79f8@gmail-events
-DTSTAMP:20260726T050428Z
+DTSTAMP:20260727T170317Z
 DTSTART:20260901T180000
 DTEND:20260901T213000
 SUMMARY:יניב גולד (אוקאס) — קורס אהבה\, יחסים ומיניות 2026
@@ -84,13 +74,53 @@ LOCATION:תל אביב
 URL:https://mim21.github.io/gmail-events/#event-%D7%A7%D7%95%D7%A8%D7%A1-%D7%90%D7%94%D7%91%D7%94-%D7%99%D7%97%D7%A1%D7%99%D7%9D-%D7%95%D7%9E%D7%99%D7%A0%D7%99%D7%95%D7%AA-2026-20260901-1800
 END:VEVENT
 BEGIN:VEVENT
+UID:a4456e850c619cb87b6a4ed8db9bdc0d@gmail-events
+DTSTAMP:20260727T170317Z
+DTSTART:20261008T203000
+DTEND:20261008T223000
+SUMMARY:מקסים לאונידוב ואלכסיי קורטנב — רוקנרול אקוסטי
+DESCRIPTION:מופע אקוסטי משותף של מקסים לאונידוב ואלכסיי קורטנב: 8 באוקטובר במוזיאון ארץ ישראל בתל אביב ו־9 באוקטובר באולם רפפורט בחיפה.\nhttps://mim21.github.io/gmail-events/#event-מקסים-לאונידוב-ואלכסיי-קורטנב-רוקנרול-אקוסטי-20261008-2030
+LOCATION:מוזיאון ארץ ישראל\, אודיטוריום קלצ'קין\; אולם רפפורט · תל אביב-יפו\, חיפה
+URL:https://mim21.github.io/gmail-events/#event-%D7%9E%D7%A7%D7%A1%D7%99%D7%9D-%D7%9C%D7%90%D7%95%D7%A0%D7%99%D7%93%D7%95%D7%91-%D7%95%D7%90%D7%9C%D7%9B%D7%A1%D7%99%D7%99-%D7%A7%D7%95%D7%A8%D7%98%D7%A0%D7%91-%D7%A8%D7%95%D7%A7%D7%A0%D7%A8%D7%95%D7%9C-%D7%90%D7%A7%D7%95%D7%A1%D7%98%D7%99-20261008-2030
+END:VEVENT
+BEGIN:VEVENT
+UID:4c77d32642c7317c823b5bc62a6383e0@gmail-events
+DTSTAMP:20260727T170317Z
+DTSTART:20261015T203000
+DTEND:20261015T223000
+SUMMARY:QUEST PISTOLS — Live TLV
+DESCRIPTION:מופע נוסף של QUEST PISTOLS בהרכב המקורי עם הלהיטים הגדולים. פתיחת דלתות ב־19:30 ותחילת המופע ב־20:30.\nhttps://mim21.github.io/gmail-events/#event-QUEST-PISTOLS-Live-TLV-20261015-2030
+LOCATION:רידינג 3\, נמל תל אביב\, התערוכה 3 · תל אביב-יפו
+URL:https://mim21.github.io/gmail-events/#event-QUEST-PISTOLS-Live-TLV-20261015-2030
+END:VEVENT
+BEGIN:VEVENT
 UID:16731bda4c88ab746a023ce1c1096eff@gmail-events
-DTSTAMP:20260726T050428Z
+DTSTAMP:20260727T170317Z
 DTSTART:20261022T160000
 DTEND:20261023T160000
 SUMMARY:Lovolution Festival
 DESCRIPTION:פסטיבל קהילתי עתידי של GinjahVibes שהוכרז במייל לצד אירועי הקיץ והסתיו.\nhttps://mim21.github.io/gmail-events/#event-Lovolution-Festival-20261022-1600
 LOCATION:פארק הירדן · עמק הירדן
 URL:https://mim21.github.io/gmail-events/#event-Lovolution-Festival-20261022-1600
+END:VEVENT
+BEGIN:VEVENT
+UID:fd0f7185d3468e41e288792a7665945b@gmail-events
+DTSTAMP:20260727T170317Z
+DTSTART:20261027T203000
+DTEND:20261027T223000
+SUMMARY:MORGENSHTERN — World Tour 2026
+DESCRIPTION:החלק השני של סיבוב ההופעות העולמי של MORGENSHTERN עם להקה חיה: 27 באוקטובר בהאנגר 11 בתל אביב ו־28 באוקטובר בהיכל הספורט רוממה בחיפה. פתיחת דלתות ב־19:00 ותחילת המופע ב־20:30.\nhttps://mim21.github.io/gmail-events/#event-MORGENSHTERN-World-Tour-2026-20261027-2030
+LOCATION:האנגר 11\; היכל הספורט רוממה · תל אביב-יפו\, חיפה
+URL:https://mim21.github.io/gmail-events/#event-MORGENSHTERN-World-Tour-2026-20261027-2030
+END:VEVENT
+BEGIN:VEVENT
+UID:9681684a2eab724b8c7e097ebeaa08c2@gmail-events
+DTSTAMP:20260727T170317Z
+DTSTART:20261029T200000
+DTEND:20261029T220000
+SUMMARY:НОГУ СВЕЛО! — הופעה חיה בישראל 2026
+DESCRIPTION:להקת НОГУ СВЕЛО! חוזרת לישראל למופע חי\; פתיחת דלתות ב־18:45\, מופע חימום Shelter 104 ב־19:20 ותחילת המופע ב־20:00. גיל 18 ומעלה.\nhttps://mim21.github.io/gmail-events/#event-НОГУ-СВЕЛО-הופעה-חיה-בישראל-2026-20261029-2000
+LOCATION:מועדון גגרין\, קיבוץ גלויות 13 · תל אביב-יפו
+URL:https://mim21.github.io/gmail-events/#event-%D0%9D%D0%9E%D0%93%D0%A3-%D0%A1%D0%92%D0%95%D0%9B%D0%9E-%D7%94%D7%95%D7%A4%D7%A2%D7%94-%D7%97%D7%99%D7%94-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-2026-20261029-2000
 END:VEVENT
 END:VCALENDAR
