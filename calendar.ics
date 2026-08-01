@@ -4,8 +4,18 @@ PRODID:-//gmail-events//pipeline//HE
 X-WR-CALNAME:אירועים מהמייל
 X-WR-TIMEZONE:Asia/Jerusalem
 BEGIN:VEVENT
+UID:7527a0d72a8e6c0e4a8abdc3bb4120c8@gmail-events
+DTSTAMP:20260801T235950Z
+DTSTART:20260805T160000
+DTEND:20260805T230000
+SUMMARY:פסטיבל הבירה במפלצת 2026
+DESCRIPTION:פסטיבל בירה שכונתי בן יומיים עם עשרות מותגי בירה\, השקות\, מוזיקה\, הופעות ו-DJ. הכרטיס כולל כוס מעוצבת למזכרת ו-10 בירות לבחירה מ-10 תחנות שונות.
+LOCATION:פאב המפלצת\, צ'ילה 8 · ירושלים
+URL:https://mim21.github.io/gmail-events/#event-%D7%A4%D7%A1%D7%98%D7%99%D7%91%D7%9C-%D7%94%D7%91%D7%99%D7%A8%D7%94-%D7%91%D7%9E%D7%A4%D7%9C%D7%A6%D7%AA-2026-20260805-1600
+END:VEVENT
+BEGIN:VEVENT
 UID:77ca4bd01d569892d9dfa7ae80f99c3f@gmail-events
-DTSTAMP:20260801T235548Z
+DTSTAMP:20260801T235950Z
 DTSTART:20260808T200000
 DTEND:20260808T220000
 SUMMARY:פרפרים בבטן — טנטרה לזוגות מתחילים
@@ -14,7 +24,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%A4%D7%A8%D7%A4%D7%A8%D7%99%D
 END:VEVENT
 BEGIN:VEVENT
 UID:9ec8497e8f394493cd21d9ef961e9654@gmail-events
-DTSTAMP:20260801T235548Z
+DTSTAMP:20260801T235950Z
 DTSTART:20260813T200000
 DTEND:20260813T220000
 SUMMARY:להיות באהבה — חגיגה של טנטרה\, אהבה ומיניות
@@ -23,7 +33,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%9C%D7%94%D7%99%D7%95%D7%AA-%
 END:VEVENT
 BEGIN:VEVENT
 UID:2d4d88a461550b6882539d3d5e7db50e@gmail-events
-DTSTAMP:20260801T235548Z
+DTSTAMP:20260801T235950Z
 DTSTART:20260820T200000
 DTEND:20260820T220000
 SUMMARY:לגעת באהבה — סודות המגע המודע
@@ -32,7 +42,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%9C%D7%92%D7%A2%D7%AA-%D7%91%
 END:VEVENT
 BEGIN:VEVENT
 UID:055f2f349368daad6933ec83eabe79f8@gmail-events
-DTSTAMP:20260801T235548Z
+DTSTAMP:20260801T235950Z
 DTSTART:20260901T180000
 DTEND:20260901T213000
 SUMMARY:קורס אהבה\, יחסים ומיניות 2026
@@ -42,7 +52,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%A7%D7%95%D7%A8%D7%A1-%D7%90%
 END:VEVENT
 BEGIN:VEVENT
 UID:16731bda4c88ab746a023ce1c1096eff@gmail-events
-DTSTAMP:20260801T235548Z
+DTSTAMP:20260801T235950Z
 DTSTART:20261022T160000
 DTEND:20261023T160000
 SUMMARY:Lovolution Festival
