@@ -1,93 +1,106 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//gmail-events//pipeline//HE
-X-WR-CALNAME:אירועים מהמייל
-X-WR-TIMEZONE:Asia/Jerusalem
-BEGIN:VEVENT
-UID:7527a0d72a8e6c0e4a8abdc3bb4120c8@gmail-events
-DTSTAMP:20260802T000736Z
-DTSTART:20260805T160000
-DTEND:20260805T230000
-SUMMARY:פסטיבל הבירה במפלצת 2026
-DESCRIPTION:פסטיבל בירה שכונתי בן יומיים עם עשרות מותגי בירה\, השקות\, מוזיקה\, הופעות ו-DJ. הכרטיס כולל כוס מעוצבת למזכרת ו-10 בירות לבחירה מ-10 תחנות שונות.
-LOCATION:פאב המפלצת\, צ'ילה 8 · ירושלים
-URL:https://mim21.github.io/gmail-events/#event-%D7%A4%D7%A1%D7%98%D7%99%D7%91%D7%9C-%D7%94%D7%91%D7%99%D7%A8%D7%94-%D7%91%D7%9E%D7%A4%D7%9C%D7%A6%D7%AA-2026-20260805-1600
-END:VEVENT
-BEGIN:VEVENT
-UID:77ca4bd01d569892d9dfa7ae80f99c3f@gmail-events
-DTSTAMP:20260802T000736Z
-DTSTART:20260808T200000
-DTEND:20260808T220000
-SUMMARY:פרפרים בבטן — טנטרה לזוגות מתחילים
-DESCRIPTION:סדנת מבוא עדינה לזוגות מתחילים\, עם תקשורת זוגית בתנועה\, זרימת אנרגיה\, טקסים זוגיים ומגע מענג בתוך הזוג בלבד.
-URL:https://mim21.github.io/gmail-events/#event-%D7%A4%D7%A8%D7%A4%D7%A8%D7%99%D7%9D-%D7%91%D7%91%D7%98%D7%9F-%D7%98%D7%A0%D7%98%D7%A8%D7%94-%D7%9C%D7%96%D7%95%D7%92%D7%95%D7%AA-%D7%9E%D7%AA%D7%97%D7%99%D7%9C%D7%99%D7%9D-20260808-2000
-END:VEVENT
-BEGIN:VEVENT
-UID:9ec8497e8f394493cd21d9ef961e9654@gmail-events
-DTSTAMP:20260802T000736Z
-DTSTART:20260813T200000
-DTEND:20260813T220000
-SUMMARY:להיות באהבה — חגיגה של טנטרה\, אהבה ומיניות
-DESCRIPTION:סדנת טנטרה מתקדמת לזוגות העוסקת באהבה כמצב הוויה\, טקסים טנטריים\, זרימת קונדליני\, גבולות\, תשוקה ומיניות.
-URL:https://mim21.github.io/gmail-events/#event-%D7%9C%D7%94%D7%99%D7%95%D7%AA-%D7%91%D7%90%D7%94%D7%91%D7%94-%D7%97%D7%92%D7%99%D7%92%D7%94-%D7%A9%D7%9C-%D7%98%D7%A0%D7%98%D7%A8%D7%94-%D7%90%D7%94%D7%91%D7%94-%D7%95%D7%9E%D7%99%D7%A0%D7%99%D7%95%D7%AA-20260813-2000
-END:VEVENT
-BEGIN:VEVENT
-UID:2d4d88a461550b6882539d3d5e7db50e@gmail-events
-DTSTAMP:20260802T000736Z
-DTSTART:20260820T200000
-DTEND:20260820T220000
-SUMMARY:לגעת באהבה — סודות המגע המודע
-DESCRIPTION:סדנה זוגית על מגע מודע\, סוגי מגע והתאמתם\, והעמקת העונג לנותן ולמקבל. העבודה היא בתוך הזוג בלבד.
-URL:https://mim21.github.io/gmail-events/#event-%D7%9C%D7%92%D7%A2%D7%AA-%D7%91%D7%90%D7%94%D7%91%D7%94-%D7%A1%D7%95%D7%93%D7%95%D7%AA-%D7%94%D7%9E%D7%92%D7%A2-%D7%94%D7%9E%D7%95%D7%93%D7%A2-20260820-2000
-END:VEVENT
-BEGIN:VEVENT
-UID:055f2f349368daad6933ec83eabe79f8@gmail-events
-DTSTAMP:20260802T000736Z
-DTSTART:20260901T180000
-DTEND:20260901T213000
-SUMMARY:קורס אהבה\, יחסים ומיניות 2026
-DESCRIPTION:המחזור הרביעי והאחרון השנה של קורס העוסק באהבה\, יחסים\, מיניות ואומנויות האהבה.
-LOCATION:תל אביב
-URL:https://mim21.github.io/gmail-events/#event-%D7%A7%D7%95%D7%A8%D7%A1-%D7%90%D7%94%D7%91%D7%94-%D7%99%D7%97%D7%A1%D7%99%D7%9D-%D7%95%D7%9E%D7%99%D7%A0%D7%99%D7%95%D7%AA-2026-20260901-1800
-END:VEVENT
-BEGIN:VEVENT
-UID:a4456e850c619cb87b6a4ed8db9bdc0d@gmail-events
-DTSTAMP:20260802T000736Z
-DTSTART:20261008T203000
-DTEND:20261008T223000
-SUMMARY:מקסים לאונידוב ואלכסיי קורטנב — רוקנרול אקוסטי
-DESCRIPTION:מופע אקוסטי משותף של מקסים לאונידוב ואלכסיי קורטנב: 8 באוקטובר במוזיאון ארץ ישראל בתל אביב ו־9 באוקטובר באולם רפפורט בחיפה.
-LOCATION:מוזיאון ארץ ישראל\, אודיטוריום קלצ'קין\; אולם רפפורט · תל אביב-יפו\, חיפה
-URL:https://mim21.github.io/gmail-events/#event-%D7%9E%D7%A7%D7%A1%D7%99%D7%9D-%D7%9C%D7%90%D7%95%D7%A0%D7%99%D7%93%D7%95%D7%91-%D7%95%D7%90%D7%9C%D7%9B%D7%A1%D7%99%D7%99-%D7%A7%D7%95%D7%A8%D7%98%D7%A0%D7%91-%D7%A8%D7%95%D7%A7%D7%A0%D7%A8%D7%95%D7%9C-%D7%90%D7%A7%D7%95%D7%A1%D7%98%D7%99-20261008-2030
-END:VEVENT
-BEGIN:VEVENT
-UID:4c77d32642c7317c823b5bc62a6383e0@gmail-events
-DTSTAMP:20260802T000736Z
-DTSTART:20261015T203000
-DTEND:20261015T223000
-SUMMARY:QUEST PISTOLS — Live TLV
-DESCRIPTION:מופע נוסף של QUEST PISTOLS בהרכב המקורי עם הלהיטים הגדולים. פתיחת דלתות ב־19:30 ותחילת המופע ב־20:30.
-LOCATION:רידינג 3\, נמל תל אביב\, התערוכה 3 · תל אביב-יפו
-URL:https://mim21.github.io/gmail-events/#event-QUEST-PISTOLS-Live-TLV-20261015-2030
-END:VEVENT
-BEGIN:VEVENT
-UID:16731bda4c88ab746a023ce1c1096eff@gmail-events
-DTSTAMP:20260802T000736Z
-DTSTART:20261022T160000
-DTEND:20261023T160000
-SUMMARY:Lovolution Festival
-DESCRIPTION:פסטיבל קהילתי עתידי של GinjahVibes שהוכרז במייל לצד אירועי הקיץ והסתיו.
-LOCATION:פארק הירדן · עמק הירדן
-URL:https://mim21.github.io/gmail-events/#event-Lovolution-Festival-20261022-1600
-END:VEVENT
-BEGIN:VEVENT
-UID:9681684a2eab724b8c7e097ebeaa08c2@gmail-events
-DTSTAMP:20260802T000736Z
-DTSTART:20261029T200000
-DTEND:20261029T220000
-SUMMARY:НОГУ СВЕЛО! — הופעה חיה בישראל 2026
-DESCRIPTION:להקת НОГУ СВЕЛО! חוזרת לישראל למופע חי\; פתיחת דלתות ב־18:45\, מופע חימום Shelter 104 ב־19:20 ותחילת המופע ב־20:00. גיל 18 ומעלה.
-LOCATION:מועדון גגרין\, קיבוץ גלויות 13 · תל אביב-יפו
-URL:https://mim21.github.io/gmail-events/#event-%D0%9D%D0%9E%D0%93%D0%A3-%D0%A1%D0%92%D0%95%D0%9B%D0%9E-%D7%94%D7%95%D7%A4%D7%A2%D7%94-%D7%97%D7%99%D7%94-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-2026-20261029-2000
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//gmail-events//pipeline//HE
+X-WR-CALNAME:אירועים מהמייל
+X-WR-TIMEZONE:Asia/Jerusalem
+BEGIN:VEVENT
+UID:7527a0d72a8e6c0e4a8abdc3bb4120c8@gmail-events
+DTSTAMP:20260802T010541Z
+DTSTART:20260805T160000
+DTEND:20260806T230000
+SUMMARY:פסטיבל הבירה במפלצת 2026
+DESCRIPTION:פסטיבל בירה שכונתי בן יומיים עם עשרות מותגי בירה\, השקות\, מוזיקה\, הופעות ו-DJ. הכרטיס כולל כוס מעוצבת למזכרת ו-10 בירות לבחירה מ-10 תחנות שונות.\nhttps://mim21.github.io/gmail-events/#event-פסטיבל-הבירה-במפלצת-2026-20260805-1600
+LOCATION:פאב המפלצת\, צ'ילה 8 · ירושלים
+URL:https://mim21.github.io/gmail-events/#event-%D7%A4%D7%A1%D7%98%D7%99%D7%91%D7%9C-%D7%94%D7%91%D7%99%D7%A8%D7%94-%D7%91%D7%9E%D7%A4%D7%9C%D7%A6%D7%AA-2026-20260805-1600
+END:VEVENT
+BEGIN:VEVENT
+UID:32ad79a6bb27f4f34faa40157eb62f93@gmail-events
+DTSTAMP:20260802T010541Z
+DTSTART:20260806T200000
+DTEND:20260806T220000
+SUMMARY:בן ואפרת — פרפרים בבטן — טנטרה לזוגות מתחילים
+DESCRIPTION:בהנחיית בן ואפרת\nסדנת מבוא עדינה לזוגות מתחילים\, עם תקשורת זוגית בתנועה\, זרימת אנרגיה\, טקסים זוגיים ומגע מענג בתוך הזוג בלבד.\nhttps://mim21.github.io/gmail-events/#event-פרפרים-בבטן-טנטרה-לזוגות-מתחילים-20260806-2000
+LOCATION:מודיעין
+URL:https://mim21.github.io/gmail-events/#event-%D7%A4%D7%A8%D7%A4%D7%A8%D7%99%D7%9D-%D7%91%D7%91%D7%98%D7%9F-%D7%98%D7%A0%D7%98%D7%A8%D7%94-%D7%9C%D7%96%D7%95%D7%92%D7%95%D7%AA-%D7%9E%D7%AA%D7%97%D7%99%D7%9C%D7%99%D7%9D-20260806-2000
+END:VEVENT
+BEGIN:VEVENT
+UID:356470d1dfa72d571b37fbe142da9a6a@gmail-events
+DTSTAMP:20260802T010541Z
+DTSTART:20260813T200000
+DTEND:20260813T220000
+SUMMARY:בן ואפרת — להיות באהבה — חגיגה של טנטרה\, אהבה ומיניות
+DESCRIPTION:בהנחיית בן ואפרת\nסדנת טנטרה מתקדמת לזוגות העוסקת באהבה כמצב הוויה\, טקסים טנטריים\, זרימת קונדליני\, גבולות\, תשוקה ומיניות.\nhttps://mim21.github.io/gmail-events/#event-להיות-באהבה-חגיגה-של-טנטרה-אהבה-ומיניות-20260813-2000
+LOCATION:מודיעין
+URL:https://mim21.github.io/gmail-events/#event-%D7%9C%D7%94%D7%99%D7%95%D7%AA-%D7%91%D7%90%D7%94%D7%91%D7%94-%D7%97%D7%92%D7%99%D7%92%D7%94-%D7%A9%D7%9C-%D7%98%D7%A0%D7%98%D7%A8%D7%94-%D7%90%D7%94%D7%91%D7%94-%D7%95%D7%9E%D7%99%D7%A0%D7%99%D7%95%D7%AA-20260813-2000
+END:VEVENT
+BEGIN:VEVENT
+UID:cb13b4c618c0e795a204e59a0c766613@gmail-events
+DTSTAMP:20260802T010541Z
+DTSTART:20260820T200000
+DTEND:20260820T220000
+SUMMARY:בן ואפרת — לגעת באהבה — סודות המגע המודע
+DESCRIPTION:בהנחיית בן ואפרת\nסדנה זוגית על מגע מודע\, סוגי מגע והתאמתם\, והעמקת העונג לנותן ולמקבל. העבודה היא בתוך הזוג בלבד.\nhttps://mim21.github.io/gmail-events/#event-לגעת-באהבה-סודות-המגע-המודע-20260820-2000
+LOCATION:מודיעין
+URL:https://mim21.github.io/gmail-events/#event-%D7%9C%D7%92%D7%A2%D7%AA-%D7%91%D7%90%D7%94%D7%91%D7%94-%D7%A1%D7%95%D7%93%D7%95%D7%AA-%D7%94%D7%9E%D7%92%D7%A2-%D7%94%D7%9E%D7%95%D7%93%D7%A2-20260820-2000
+END:VEVENT
+BEGIN:VEVENT
+UID:055f2f349368daad6933ec83eabe79f8@gmail-events
+DTSTAMP:20260802T010541Z
+DTSTART:20260901T180000
+DTEND:20260901T213000
+SUMMARY:יניב גולד (אוקאס) — קורס אהבה\, יחסים ומיניות 2026
+DESCRIPTION:בהנחיית יניב גולד (אוקאס)\nהמחזור הרביעי והאחרון השנה של קורס העוסק באהבה\, יחסים\, מיניות ואומנויות האהבה.\nhttps://mim21.github.io/gmail-events/#event-קורס-אהבה-יחסים-ומיניות-2026-20260901-1800
+LOCATION:תל אביב
+URL:https://mim21.github.io/gmail-events/#event-%D7%A7%D7%95%D7%A8%D7%A1-%D7%90%D7%94%D7%91%D7%94-%D7%99%D7%97%D7%A1%D7%99%D7%9D-%D7%95%D7%9E%D7%99%D7%A0%D7%99%D7%95%D7%AA-2026-20260901-1800
+END:VEVENT
+BEGIN:VEVENT
+UID:a4456e850c619cb87b6a4ed8db9bdc0d@gmail-events
+DTSTAMP:20260802T010541Z
+DTSTART:20261008T203000
+DTEND:20261008T223000
+SUMMARY:מקסים לאונידוב ואלכסיי קורטנב — רוקנרול אקוסטי
+DESCRIPTION:מופע אקוסטי משותף של מקסים לאונידוב ואלכסיי קורטנב: 8 באוקטובר במוזיאון ארץ ישראל בתל אביב ו־9 באוקטובר באולם רפפורט בחיפה.\nhttps://mim21.github.io/gmail-events/#event-מקסים-לאונידוב-ואלכסיי-קורטנב-רוקנרול-אקוסטי-20261008-2030
+LOCATION:מוזיאון ארץ ישראל\, אודיטוריום קלצ'קין\; אולם רפפורט · תל אביב-יפו\, חיפה
+URL:https://mim21.github.io/gmail-events/#event-%D7%9E%D7%A7%D7%A1%D7%99%D7%9D-%D7%9C%D7%90%D7%95%D7%A0%D7%99%D7%93%D7%95%D7%91-%D7%95%D7%90%D7%9C%D7%9B%D7%A1%D7%99%D7%99-%D7%A7%D7%95%D7%A8%D7%98%D7%A0%D7%91-%D7%A8%D7%95%D7%A7%D7%A0%D7%A8%D7%95%D7%9C-%D7%90%D7%A7%D7%95%D7%A1%D7%98%D7%99-20261008-2030
+END:VEVENT
+BEGIN:VEVENT
+UID:4c77d32642c7317c823b5bc62a6383e0@gmail-events
+DTSTAMP:20260802T010541Z
+DTSTART:20261015T203000
+DTEND:20261015T223000
+SUMMARY:QUEST PISTOLS — Live TLV
+DESCRIPTION:מופע נוסף של QUEST PISTOLS בהרכב המקורי עם הלהיטים הגדולים. פתיחת דלתות ב־19:30 ותחילת המופע ב־20:30.\nhttps://mim21.github.io/gmail-events/#event-QUEST-PISTOLS-Live-TLV-20261015-2030
+LOCATION:רידינג 3\, נמל תל אביב\, התערוכה 3 · תל אביב-יפו
+URL:https://mim21.github.io/gmail-events/#event-QUEST-PISTOLS-Live-TLV-20261015-2030
+END:VEVENT
+BEGIN:VEVENT
+UID:16731bda4c88ab746a023ce1c1096eff@gmail-events
+DTSTAMP:20260802T010541Z
+DTSTART:20261022T160000
+DTEND:20261024T160000
+SUMMARY:Lovolution Festival
+DESCRIPTION:פסטיבל קהילתי עתידי של GinjahVibes שהוכרז במייל לצד אירועי הקיץ והסתיו.\nhttps://mim21.github.io/gmail-events/#event-Lovolution-Festival-20261022-1600
+LOCATION:פארק הירדן · עמק הירדן
+URL:https://mim21.github.io/gmail-events/#event-Lovolution-Festival-20261022-1600
+END:VEVENT
+BEGIN:VEVENT
+UID:fd0f7185d3468e41e288792a7665945b@gmail-events
+DTSTAMP:20260802T010541Z
+DTSTART:20261027T203000
+DTEND:20261027T223000
+SUMMARY:MORGENSHTERN — World Tour 2026
+DESCRIPTION:החלק השני של סיבוב ההופעות העולמי של MORGENSHTERN עם להקה חיה: 27 באוקטובר בהאנגר 11 בתל אביב ו־28 באוקטובר בהיכל הספורט רוממה בחיפה. פתיחת דלתות ב־19:00 ותחילת המופע ב־20:30.\nhttps://mim21.github.io/gmail-events/#event-MORGENSHTERN-World-Tour-2026-20261027-2030
+LOCATION:האנגר 11\; היכל הספורט רוממה · תל אביב-יפו\, חיפה
+URL:https://mim21.github.io/gmail-events/#event-MORGENSHTERN-World-Tour-2026-20261027-2030
+END:VEVENT
+BEGIN:VEVENT
+UID:9681684a2eab724b8c7e097ebeaa08c2@gmail-events
+DTSTAMP:20260802T010541Z
+DTSTART:20261029T200000
+DTEND:20261029T220000
+SUMMARY:НОГУ СВЕЛО! — הופעה חיה בישראל 2026
+DESCRIPTION:להקת НОГУ СВЕЛО! חוזרת לישראל למופע חי\; פתיחת דלתות ב־18:45\, מופע חימום Shelter 104 ב־19:20 ותחילת המופע ב־20:00. גיל 18 ומעלה.\nhttps://mim21.github.io/gmail-events/#event-НОГУ-СВЕЛО-הופעה-חיה-בישראל-2026-20261029-2000
+LOCATION:מועדון גגרין\, קיבוץ גלויות 13 · תל אביב-יפו
+URL:https://mim21.github.io/gmail-events/#event-%D0%9D%D0%9E%D0%93%D0%A3-%D0%A1%D0%92%D0%95%D0%9B%D0%9E-%D7%94%D7%95%D7%A4%D7%A2%D7%94-%D7%97%D7%99%D7%94-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-2026-20261029-2000
+END:VEVENT
+END:VCALENDAR
