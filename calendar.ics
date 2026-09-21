@@ -1,96 +1,30 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//gmail-events//pipeline//HE
-X-WR-CALNAME:אירועים מהמייל
-X-WR-TIMEZONE:Asia/Jerusalem
+PRODID:-//calcore//Calendar Core 1.0.0//HE
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Gmail Events
+X-WR-CALDESC:Gmail Events published events calendar
 BEGIN:VEVENT
-UID:a56750c302fda35e1cba13ada20a74f4@gmail-events
-DTSTAMP:20260920T050432Z
-DTSTART:20260924T210000
-DTEND:20260925T020000
-SUMMARY:צוקריה
-DESCRIPTION:ערב חווייתי למבוגרים בלבד של פנטזיה\, משחקיות\, מוזיקה ומפגש במרחב עם גבולות ברורים.\nhttps://mim21.github.io/gmail-events/#event-צוקריה-20260924-2100
-LOCATION:אזור פרדס חנה
-URL:https://mim21.github.io/gmail-events/#event-%D7%A6%D7%95%D7%A7%D7%A8%D7%99%D7%94-20260924-2100
+UID:bd6e17dfa62c6035f47aea792c0d97bd@gmail-events
+DTSTAMP:20241024T180208Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:למסירה: ספה ארוכה במיוחד - איסוף ב 23.9 (
+ סוכן אגורה - נתמך ע"י פרסומות)
 END:VEVENT
 BEGIN:VEVENT
-UID:55e4d604eabb664e9836a7623c9fe2e1@gmail-events
-DTSTAMP:20260920T050432Z
-DTSTART:20260929T200000
-DTEND:20260929T220000
-SUMMARY:אורקה\, עומר גונן האלה ויעל דקלבאום — התפילה — איחוד המעגלים
-DESCRIPTION:בהנחיית אורקה\, עומר גונן האלה ויעל דקלבאום\nערב תפילה ושירת רבים בחול המועד סוכות\, באיחוד מעגלים ובהובלה מוזיקלית וטקסית.\nhttps://mim21.github.io/gmail-events/#event-התפילה-איחוד-המעגלים-20260929-2000
-LOCATION:בורג׳ בנימינה
-URL:https://mim21.github.io/gmail-events/#event-%D7%94%D7%AA%D7%A4%D7%99%D7%9C%D7%94-%D7%90%D7%99%D7%97%D7%95%D7%93-%D7%94%D7%9E%D7%A2%D7%92%D7%9C%D7%99%D7%9D-20260929-2000
+UID:c371e10d49df8bbbc8c8e038918ee7f7@gmail-events
+DTSTAMP:20241024T180208Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:למסירה: ספה ברוחב 2.10 מטרים (סוכן אגור
+ ה - נתמך ע"י פרסומות)
 END:VEVENT
 BEGIN:VEVENT
-UID:1dbfce80111ed1c6eb947a92be8bc41e@gmail-events
-DTSTAMP:20260920T050432Z
-DTSTART:20260930T170000
-DTEND:20261001T010000
-SUMMARY:Burge Gathering — סוכות
-DESCRIPTION:גדרינג סוכות של Gatherings ו-Nataraj Spirit עם מדיטציית פתיחה\, הופעות ודי־ג׳יי אל תוך הלילה.\nhttps://mim21.github.io/gmail-events/#event-Burge-Gathering-סוכות-20260930-1700
-LOCATION:בורג׳ בנימינה
-URL:https://mim21.github.io/gmail-events/#event-Burge-Gathering-%D7%A1%D7%95%D7%9B%D7%95%D7%AA-20260930-1700
-END:VEVENT
-BEGIN:VEVENT
-UID:a4456e850c619cb87b6a4ed8db9bdc0d@gmail-events
-DTSTAMP:20260920T050432Z
-DTSTART:20261008T203000
-DTEND:20261008T223000
-SUMMARY:מקסים לאונידוב ואלכסיי קורטנב — רוקנרול אקוסטי
-DESCRIPTION:מופע אקוסטי משותף של מקסים לאונידוב ואלכסיי קורטנב: 8 באוקטובר במוזיאון ארץ ישראל בתל אביב ו־9 באוקטובר באולם רפפורט בחיפה.\nhttps://mim21.github.io/gmail-events/#event-מקסים-לאונידוב-ואלכסיי-קורטנב-רוקנרול-אקוסטי-20261008-2030
-LOCATION:מוזיאון ארץ ישראל\, אודיטוריום קלצ'קין\; אולם רפפורט · תל אביב-יפו\, חיפה
-URL:https://mim21.github.io/gmail-events/#event-%D7%9E%D7%A7%D7%A1%D7%99%D7%9D-%D7%9C%D7%90%D7%95%D7%A0%D7%99%D7%93%D7%95%D7%91-%D7%95%D7%90%D7%9C%D7%9B%D7%A1%D7%99%D7%99-%D7%A7%D7%95%D7%A8%D7%98%D7%A0%D7%91-%D7%A8%D7%95%D7%A7%D7%A0%D7%A8%D7%95%D7%9C-%D7%90%D7%A7%D7%95%D7%A1%D7%98%D7%99-20261008-2030
-END:VEVENT
-BEGIN:VEVENT
-UID:4c77d32642c7317c823b5bc62a6383e0@gmail-events
-DTSTAMP:20260920T050432Z
-DTSTART:20261015T203000
-DTEND:20261015T223000
-SUMMARY:QUEST PISTOLS — Live TLV
-DESCRIPTION:מופע נוסף של QUEST PISTOLS בהרכב המקורי עם הלהיטים הגדולים. פתיחת דלתות ב־19:30 ותחילת המופע ב־20:30.\nhttps://mim21.github.io/gmail-events/#event-QUEST-PISTOLS-Live-TLV-20261015-2030
-LOCATION:רידינג 3\, נמל תל אביב\, התערוכה 3 · תל אביב-יפו
-URL:https://mim21.github.io/gmail-events/#event-QUEST-PISTOLS-Live-TLV-20261015-2030
-END:VEVENT
-BEGIN:VEVENT
-UID:16731bda4c88ab746a023ce1c1096eff@gmail-events
-DTSTAMP:20260920T050432Z
-DTSTART:20261022T160000
-DTEND:20261024T160000
-SUMMARY:Lovolution Festival
-DESCRIPTION:פסטיבל קהילתי עתידי של GinjahVibes שהוכרז במייל לצד אירועי הקיץ והסתיו.\nhttps://mim21.github.io/gmail-events/#event-Lovolution-Festival-20261022-1600
-LOCATION:פארק הירדן · עמק הירדן
-URL:https://mim21.github.io/gmail-events/#event-Lovolution-Festival-20261022-1600
-END:VEVENT
-BEGIN:VEVENT
-UID:fd0f7185d3468e41e288792a7665945b@gmail-events
-DTSTAMP:20260920T050432Z
-DTSTART:20261027T203000
-DTEND:20261027T223000
-SUMMARY:MORGENSHTERN — World Tour 2026
-DESCRIPTION:החלק השני של סיבוב ההופעות העולמי של MORGENSHTERN עם להקה חיה: 27 באוקטובר בהאנגר 11 בתל אביב ו־28 באוקטובר בהיכל הספורט רוממה בחיפה. פתיחת דלתות ב־19:00 ותחילת המופע ב־20:30.\nhttps://mim21.github.io/gmail-events/#event-MORGENSHTERN-World-Tour-2026-20261027-2030
-LOCATION:האנגר 11\; היכל הספורט רוממה · תל אביב-יפו\, חיפה
-URL:https://mim21.github.io/gmail-events/#event-MORGENSHTERN-World-Tour-2026-20261027-2030
-END:VEVENT
-BEGIN:VEVENT
-UID:9681684a2eab724b8c7e097ebeaa08c2@gmail-events
-DTSTAMP:20260920T050432Z
-DTSTART:20261029T200000
-DTEND:20261029T220000
-SUMMARY:НОГУ СВЕЛО! — הופעה חיה בישראל 2026
-DESCRIPTION:להקת НОГУ СВЕЛО! חוזרת לישראל למופע חי\; פתיחת דלתות ב־18:45\, מופע חימום Shelter 104 ב־19:20 ותחילת המופע ב־20:00. גיל 18 ומעלה.\nhttps://mim21.github.io/gmail-events/#event-НОГУ-СВЕЛО-הופעה-חיה-בישראל-2026-20261029-2000
-LOCATION:מועדון גגרין\, קיבוץ גלויות 13 · תל אביב-יפו
-URL:https://mim21.github.io/gmail-events/#event-%D0%9D%D0%9E%D0%93%D0%A3-%D0%A1%D0%92%D0%95%D0%9B%D0%9E-%D7%94%D7%95%D7%A4%D7%A2%D7%94-%D7%97%D7%99%D7%94-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-2026-20261029-2000
-END:VEVENT
-BEGIN:VEVENT
-UID:1f484af878121cd3622ce3b7f1878958@gmail-events
-DTSTAMP:20260920T050432Z
-DTSTART:20261120T203000
-DTEND:20261120T223000
-SUMMARY:ЛИНДА — מופע סולו גדול בתל אביב
-DESCRIPTION:הזמרת ЛИНДА מגיעה לישראל למופע סולו גדול עם הלהיטים המוכרים ושירים חדשים.\nhttps://mim21.github.io/gmail-events/#event-ЛИНДА-מופע-סולו-גדול-בתל-אביב-20261120-2030
-LOCATION:רידינג 3\, נמל תל אביב\, רח׳ התערוכה 3 · תל אביב-יפו
-URL:https://mim21.github.io/gmail-events/#event-%D0%9B%D0%98%D0%9D%D0%94%D0%90-%D7%9E%D7%95%D7%A4%D7%A2-%D7%A1%D7%95%D7%9C%D7%95-%D7%92%D7%93%D7%95%D7%9C-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91-20261120-2030
+UID:cde3c28293bce087c1814de728b0c2cd@gmail-events
+DTSTAMP:20241024T180208Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Марина- Симха гольцберг 7/12
 END:VEVENT
 END:VCALENDAR
