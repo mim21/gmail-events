@@ -4,18 +4,8 @@ PRODID:-//gmail-events//pipeline//HE
 X-WR-CALNAME:אירועים מהמייל
 X-WR-TIMEZONE:Asia/Jerusalem
 BEGIN:VEVENT
-UID:9a8d8ec1131922be80ca17914e621b45@gmail-events
-DTSTAMP:20261017T050403Z
-DTSTART:20261017T193000
-DTEND:20261018T013000
-SUMMARY:קיילאני\, סאנשיי\, סנדש\, דר ומאישה — Ecstatic Island
-DESCRIPTION:בהנחיית קיילאני\, סאנשיי\, סנדש\, דר ומאישה\nשש שעות של ריקוד אקסטטיק עם די־ג׳ייז המובילים קהילות ורחבות ברחבי העולם\, בשיתוף פסטיבל מדבר.\nhttps://mim21.github.io/gmail-events/#event-Ecstatic-Island-20261017-1930
-LOCATION:הבורג׳ בנימינה
-URL:https://mim21.github.io/gmail-events/#event-Ecstatic-Island-20261017-1930
-END:VEVENT
-BEGIN:VEVENT
 UID:16731bda4c88ab746a023ce1c1096eff@gmail-events
-DTSTAMP:20261017T050403Z
+DTSTAMP:20261018T050254Z
 DTSTART:20261022T160000
 DTEND:20261024T160000
 SUMMARY:Lovolution Festival
@@ -25,7 +15,7 @@ URL:https://mim21.github.io/gmail-events/#event-Lovolution-Festival-20261022-160
 END:VEVENT
 BEGIN:VEVENT
 UID:fd0f7185d3468e41e288792a7665945b@gmail-events
-DTSTAMP:20261017T050403Z
+DTSTAMP:20261018T050254Z
 DTSTART:20261027T203000
 DTEND:20261027T223000
 SUMMARY:MORGENSHTERN — World Tour 2026
@@ -35,7 +25,7 @@ URL:https://mim21.github.io/gmail-events/#event-MORGENSHTERN-World-Tour-2026-202
 END:VEVENT
 BEGIN:VEVENT
 UID:9681684a2eab724b8c7e097ebeaa08c2@gmail-events
-DTSTAMP:20261017T050403Z
+DTSTAMP:20261018T050254Z
 DTSTART:20261029T200000
 DTEND:20261029T220000
 SUMMARY:НОГУ СВЕЛО! — הופעה חיה בישראל 2026
@@ -45,7 +35,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D0%9D%D0%9E%D0%93%D0%A3-%D0%A1%
 END:VEVENT
 BEGIN:VEVENT
 UID:7e00d7318e0ebbfdcd18759194f0b85b@gmail-events
-DTSTAMP:20261017T050403Z
+DTSTAMP:20261018T050254Z
 DTSTART:20261029T170000
 DTEND:20261030T010000
 SUMMARY:Burge Gathering — מסיבת סתיו
@@ -55,7 +45,7 @@ URL:https://mim21.github.io/gmail-events/#event-Burge-Gathering-%D7%9E%D7%A1%D7%
 END:VEVENT
 BEGIN:VEVENT
 UID:1f484af878121cd3622ce3b7f1878958@gmail-events
-DTSTAMP:20261017T050403Z
+DTSTAMP:20261018T050254Z
 DTSTART:20261120T203000
 DTEND:20261120T223000
 SUMMARY:ЛИНДА — מופע סולו גדול בתל אביב
@@ -65,7 +55,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D0%9B%D0%98%D0%9D%D0%94%D0%90-%
 END:VEVENT
 BEGIN:VEVENT
 UID:d21b06dec6fd25fd6be44ac4b5fe7ec2@gmail-events
-DTSTAMP:20261017T050403Z
+DTSTAMP:20261018T050254Z
 DTSTART:20261130T180000
 DTEND:20270201T213000
 SUMMARY:יניב גולד אוקאס וצוות מנחות ומנחים — Arts of Love — קורס אומנויות האהבה\, מחזור 5
@@ -75,7 +65,7 @@ URL:https://mim21.github.io/gmail-events/#event-Arts-of-Love-%D7%A7%D7%95%D7%A8%
 END:VEVENT
 BEGIN:VEVENT
 UID:c9d201eeeae5a586f5318c2483c211a4@gmail-events
-DTSTAMP:20261017T050403Z
+DTSTAMP:20261018T050254Z
 DTSTART:20261217T203000
 DTEND:20261217T223000
 SUMMARY:СЕМЕН СЛЕПАКОВ — «Сидиди и не пидиди»
