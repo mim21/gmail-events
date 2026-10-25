@@ -4,18 +4,28 @@ PRODID:-//gmail-events//pipeline//HE
 X-WR-CALNAME:אירועים מהמייל
 X-WR-TIMEZONE:Asia/Jerusalem
 BEGIN:VEVENT
-UID:16731bda4c88ab746a023ce1c1096eff@gmail-events
-DTSTAMP:20261021T050642Z
-DTSTART:20261022T160000
-DTEND:20261024T160000
-SUMMARY:Lovolution Festival
-DESCRIPTION:פסטיבל קהילתי עתידי של GinjahVibes שהוכרז במייל לצד אירועי הקיץ והסתיו.\nhttps://mim21.github.io/gmail-events/#event-Lovolution-Festival-20261022-1600
-LOCATION:פארק הירדן · עמק הירדן
-URL:https://mim21.github.io/gmail-events/#event-Lovolution-Festival-20261022-1600
+UID:7124a8769e8f03479c4702f7eac18159@gmail-events
+DTSTAMP:20261025T060456Z
+DTSTART:20261026T090000
+DTEND:20261026T110000
+SUMMARY:Саша Эпштейн — Эфир про собеседования + живые симуляции — утренняя сессия
+DESCRIPTION:בהנחיית Саша Эпштейн\nПрямой эфир о том\, как показывать профессиональный уровень на интервью\, влиять на ход разговора и рассказывать о неудачах\; включает живые симуляции собеседований и обратную связь.\nhttps://mim21.github.io/gmail-events/#event-Эфир-про-собеседования-живые-симуляции-утренняя-сессия-20261026-0900
+LOCATION:אונליין
+URL:https://mim21.github.io/gmail-events/#event-%D0%AD%D1%84%D0%B8%D1%80-%D0%BF%D1%80%D0%BE-%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5-%D1%81%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%86%D0%B8%D0%B8-%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F-%D1%81%D0%B5%D1%81%D1%81%D0%B8%D1%8F-20261026-0900
+END:VEVENT
+BEGIN:VEVENT
+UID:39c59a57ae3355b37804a09932a0cebe@gmail-events
+DTSTAMP:20261025T060456Z
+DTSTART:20261026T180000
+DTEND:20261026T200000
+SUMMARY:Саша Эпштейн — Эфир про собеседования + живые симуляции — вечерняя сессия
+DESCRIPTION:בהנחיית Саша Эпштейн\nПрямой эфир о том\, как показывать профессиональный уровень на интервью\, влиять на ход разговора и рассказывать о неудачах\; включает живые симуляции собеседований и обратную связь.\nhttps://mim21.github.io/gmail-events/#event-Эфир-про-собеседования-живые-симуляции-вечерняя-сессия-20261026-1800
+LOCATION:אונליין
+URL:https://mim21.github.io/gmail-events/#event-%D0%AD%D1%84%D0%B8%D1%80-%D0%BF%D1%80%D0%BE-%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5-%D1%81%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%86%D0%B8%D0%B8-%D0%B2%D0%B5%D1%87%D0%B5%D1%80%D0%BD%D1%8F%D1%8F-%D1%81%D0%B5%D1%81%D1%81%D0%B8%D1%8F-20261026-1800
 END:VEVENT
 BEGIN:VEVENT
 UID:fd0f7185d3468e41e288792a7665945b@gmail-events
-DTSTAMP:20261021T050642Z
+DTSTAMP:20261025T060456Z
 DTSTART:20261027T203000
 DTEND:20261027T223000
 SUMMARY:MORGENSHTERN — World Tour 2026
@@ -25,7 +35,7 @@ URL:https://mim21.github.io/gmail-events/#event-MORGENSHTERN-World-Tour-2026-202
 END:VEVENT
 BEGIN:VEVENT
 UID:9e6c6042df60fa7c8b6cb8af06b1963e@gmail-events
-DTSTAMP:20261021T050642Z
+DTSTAMP:20261025T060456Z
 DTSTART:20261028T194500
 DTEND:20261028T230000
 SUMMARY:מרינה קושניר ואיתמר סבן — טקס קונדליני אקטיביישן
@@ -35,7 +45,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%98%D7%A7%D7%A1-%D7%A7%D7%95%
 END:VEVENT
 BEGIN:VEVENT
 UID:9681684a2eab724b8c7e097ebeaa08c2@gmail-events
-DTSTAMP:20261021T050642Z
+DTSTAMP:20261025T060456Z
 DTSTART:20261029T200000
 DTEND:20261029T220000
 SUMMARY:НОГУ СВЕЛО! — הופעה חיה בישראל 2026
@@ -45,7 +55,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D0%9D%D0%9E%D0%93%D0%A3-%D0%A1%
 END:VEVENT
 BEGIN:VEVENT
 UID:7e00d7318e0ebbfdcd18759194f0b85b@gmail-events
-DTSTAMP:20261021T050642Z
+DTSTAMP:20261025T060456Z
 DTSTART:20261029T170000
 DTEND:20261030T010000
 SUMMARY:Burge Gathering — מסיבת סתיו
@@ -55,7 +65,7 @@ URL:https://mim21.github.io/gmail-events/#event-Burge-Gathering-%D7%9E%D7%A1%D7%
 END:VEVENT
 BEGIN:VEVENT
 UID:1f484af878121cd3622ce3b7f1878958@gmail-events
-DTSTAMP:20261021T050642Z
+DTSTAMP:20261025T060456Z
 DTSTART:20261120T203000
 DTEND:20261120T223000
 SUMMARY:ЛИНДА — מופע סולו גדול בתל אביב
@@ -65,7 +75,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D0%9B%D0%98%D0%9D%D0%94%D0%90-%
 END:VEVENT
 BEGIN:VEVENT
 UID:d21b06dec6fd25fd6be44ac4b5fe7ec2@gmail-events
-DTSTAMP:20261021T050642Z
+DTSTAMP:20261025T060456Z
 DTSTART:20261130T180000
 DTEND:20270201T213000
 SUMMARY:יניב גולד אוקאס וצוות מנחות ומנחים — Arts of Love — קורס אומנויות האהבה\, מחזור 5
@@ -75,7 +85,7 @@ URL:https://mim21.github.io/gmail-events/#event-Arts-of-Love-%D7%A7%D7%95%D7%A8%
 END:VEVENT
 BEGIN:VEVENT
 UID:1646abaf87aae388c46c4427953f0aa1@gmail-events
-DTSTAMP:20261021T050642Z
+DTSTAMP:20261025T060456Z
 DTSTART:20261216T150000
 DTEND:20261219T160000
 SUMMARY:מרינה קושניר — הכשרת קונדליני אקטיביישן למטפלים ומנחים
@@ -85,7 +95,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%94%D7%9B%D7%A9%D7%A8%D7%AA-%
 END:VEVENT
 BEGIN:VEVENT
 UID:c9d201eeeae5a586f5318c2483c211a4@gmail-events
-DTSTAMP:20261021T050642Z
+DTSTAMP:20261025T060456Z
 DTSTART:20261217T203000
 DTEND:20261217T223000
 SUMMARY:СЕМЕН СЛЕПАКОВ — «Сидиди и не пидиди»
