@@ -4,58 +4,37 @@ PRODID:-//gmail-events//pipeline//HE
 X-WR-CALNAME:אירועים מהמייל
 X-WR-TIMEZONE:Asia/Jerusalem
 BEGIN:VEVENT
-UID:39c59a57ae3355b37804a09932a0cebe@gmail-events
-DTSTAMP:20261026T060551Z
-DTSTART:20261026T180000
-DTEND:20261026T200000
-SUMMARY:Саша Эпштейн — Эфир про собеседования + живые симуляции — вечерняя сессия
-DESCRIPTION:בהנחיית Саша Эпштейн\nПрямой эфир о том\, как показывать профессиональный уровень на интервью\, влиять на ход разговора и рассказывать о неудачах\; включает живые симуляции собеседований и обратную связь.\nhttps://mim21.github.io/gmail-events/#event-Эфир-про-собеседования-живые-симуляции-вечерняя-сессия-20261026-1800
-LOCATION:אונליין
-URL:https://mim21.github.io/gmail-events/#event-%D0%AD%D1%84%D0%B8%D1%80-%D0%BF%D1%80%D0%BE-%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5-%D1%81%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%86%D0%B8%D0%B8-%D0%B2%D0%B5%D1%87%D0%B5%D1%80%D0%BD%D1%8F%D1%8F-%D1%81%D0%B5%D1%81%D1%81%D0%B8%D1%8F-20261026-1800
+UID:43eed4ef00844c2d31cd298863e8a93a@gmail-events
+DTSTAMP:20261030T060712Z
+DTSTART:20261107T193000
+DTEND:20261107T223000
+SUMMARY:דוד כהן צדק — ערב מבוא לסודות האינטימיות הזוגית
+DESCRIPTION:בהנחיית דוד כהן צדק\nערב מבוא בן שלוש שעות לעולם האינטימיות והתשוקה\, עם ידע ותרגול חווייתי.\nhttps://mim21.github.io/gmail-events/#event-ערב-מבוא-לסודות-האינטימיות-הזוגית-20261107-1930
+URL:https://mim21.github.io/gmail-events/#event-%D7%A2%D7%A8%D7%91-%D7%9E%D7%91%D7%95%D7%90-%D7%9C%D7%A1%D7%95%D7%93%D7%95%D7%AA-%D7%94%D7%90%D7%99%D7%A0%D7%98%D7%99%D7%9E%D7%99%D7%95%D7%AA-%D7%94%D7%96%D7%95%D7%92%D7%99%D7%AA-20261107-1930
 END:VEVENT
 BEGIN:VEVENT
-UID:fd0f7185d3468e41e288792a7665945b@gmail-events
-DTSTAMP:20261026T060551Z
-DTSTART:20261027T203000
-DTEND:20261027T223000
-SUMMARY:MORGENSHTERN — World Tour 2026
-DESCRIPTION:החלק השני של סיבוב ההופעות העולמי של MORGENSHTERN עם להקה חיה: 27 באוקטובר בהאנגר 11 בתל אביב ו־28 באוקטובר בהיכל הספורט רוממה בחיפה. פתיחת דלתות ב־19:00 ותחילת המופע ב־20:30.\nhttps://mim21.github.io/gmail-events/#event-MORGENSHTERN-World-Tour-2026-20261027-2030
-LOCATION:האנגר 11\; היכל הספורט רוממה · תל אביב-יפו\, חיפה
-URL:https://mim21.github.io/gmail-events/#event-MORGENSHTERN-World-Tour-2026-20261027-2030
+UID:fa0e8bb919f6230d55c17244d5aaa525@gmail-events
+DTSTAMP:20261030T060712Z
+DTSTART:20261113T100000
+DTEND:20261113T160000
+SUMMARY:דוד כהן צדק — יום עיון ומבוא לטנטרה תרפיה
+DESCRIPTION:בהנחיית דוד כהן צדק\nיום עיון מעשי ומבוא לטנטרה תרפיה\, מיניות מודעת והיבטים קשורים.\nhttps://mim21.github.io/gmail-events/#event-יום-עיון-ומבוא-לטנטרה-תרפיה-20261113-1000
+LOCATION:תל אביב
+URL:https://mim21.github.io/gmail-events/#event-%D7%99%D7%95%D7%9D-%D7%A2%D7%99%D7%95%D7%9F-%D7%95%D7%9E%D7%91%D7%95%D7%90-%D7%9C%D7%98%D7%A0%D7%98%D7%A8%D7%94-%D7%AA%D7%A8%D7%A4%D7%99%D7%94-20261113-1000
 END:VEVENT
 BEGIN:VEVENT
-UID:9e6c6042df60fa7c8b6cb8af06b1963e@gmail-events
-DTSTAMP:20261026T060551Z
-DTSTART:20261028T194500
-DTEND:20261028T230000
-SUMMARY:מרינה קושניר ואיתמר סבן — טקס קונדליני אקטיביישן
-DESCRIPTION:בהנחיית מרינה קושניר ואיתמר סבן\nטקס קבוצתי להפעלת קונדליני\, שחרור עמוק\, ריפוי וחידוש אנרגטי.\nhttps://mim21.github.io/gmail-events/#event-טקס-קונדליני-אקטיביישן-20261028-1945
-LOCATION:זן גרדן · פרדס חנה
-URL:https://mim21.github.io/gmail-events/#event-%D7%98%D7%A7%D7%A1-%D7%A7%D7%95%D7%A0%D7%93%D7%9C%D7%99%D7%A0%D7%99-%D7%90%D7%A7%D7%98%D7%99%D7%91%D7%99%D7%99%D7%A9%D7%9F-20261028-1945
-END:VEVENT
-BEGIN:VEVENT
-UID:9681684a2eab724b8c7e097ebeaa08c2@gmail-events
-DTSTAMP:20261026T060551Z
-DTSTART:20261029T200000
-DTEND:20261029T220000
-SUMMARY:НОГУ СВЕЛО! — הופעה חיה בישראל 2026
-DESCRIPTION:להקת НОГУ СВЕЛО! חוזרת לישראל למופע חי\; פתיחת דלתות ב־18:45\, מופע חימום Shelter 104 ב־19:20 ותחילת המופע ב־20:00. גיל 18 ומעלה.\nhttps://mim21.github.io/gmail-events/#event-НОГУ-СВЕЛО-הופעה-חיה-בישראל-2026-20261029-2000
-LOCATION:מועדון גגרין\, קיבוץ גלויות 13 · תל אביב-יפו
-URL:https://mim21.github.io/gmail-events/#event-%D0%9D%D0%9E%D0%93%D0%A3-%D0%A1%D0%92%D0%95%D0%9B%D0%9E-%D7%94%D7%95%D7%A4%D7%A2%D7%94-%D7%97%D7%99%D7%94-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-2026-20261029-2000
-END:VEVENT
-BEGIN:VEVENT
-UID:7e00d7318e0ebbfdcd18759194f0b85b@gmail-events
-DTSTAMP:20261026T060551Z
-DTSTART:20261029T170000
-DTEND:20261030T010000
-SUMMARY:Burge Gathering — מסיבת סתיו
-DESCRIPTION:מסיבת סתיו שנפתחת במדיטציית קונדליני וממשיכה עם Michal Rose\, Alonique\, Deep Dave\, Darwish ו־Liran.\nhttps://mim21.github.io/gmail-events/#event-Burge-Gathering-מסיבת-סתיו-20261029-1700
-LOCATION:הבורג׳ בנימינה
-URL:https://mim21.github.io/gmail-events/#event-Burge-Gathering-%D7%9E%D7%A1%D7%99%D7%91%D7%AA-%D7%A1%D7%AA%D7%99%D7%95-20261029-1700
+UID:250221f3cc82081b0d6f5363d7dd1f2d@gmail-events
+DTSTAMP:20261030T060712Z
+DTSTART:20261119T210000
+DTEND:20261120T020000
+SUMMARY:צוקריה
+DESCRIPTION:ערב של מפגש\, משחק וחיבור במרחב קהילתי.\nhttps://mim21.github.io/gmail-events/#event-צוקריה-20261119-2100
+LOCATION:פרדס חנה
+URL:https://mim21.github.io/gmail-events/#event-%D7%A6%D7%95%D7%A7%D7%A8%D7%99%D7%94-20261119-2100
 END:VEVENT
 BEGIN:VEVENT
 UID:1f484af878121cd3622ce3b7f1878958@gmail-events
-DTSTAMP:20261026T060551Z
+DTSTAMP:20261030T060712Z
 DTSTART:20261120T203000
 DTEND:20261120T223000
 SUMMARY:ЛИНДА — מופע סולו גדול בתל אביב
@@ -64,8 +43,18 @@ LOCATION:רידינג 3\, נמל תל אביב\, רח׳ התערוכה 3 · תל
 URL:https://mim21.github.io/gmail-events/#event-%D0%9B%D0%98%D0%9D%D0%94%D0%90-%D7%9E%D7%95%D7%A4%D7%A2-%D7%A1%D7%95%D7%9C%D7%95-%D7%92%D7%93%D7%95%D7%9C-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91-20261120-2030
 END:VEVENT
 BEGIN:VEVENT
+UID:7a94e40802755cea98bf0352be2e1a28@gmail-events
+DTSTAMP:20261030T060712Z
+DTSTART:20261128T193000
+DTEND:20261128T230000
+SUMMARY:COSMIC VIBES — מסיבה קהילתית של מסעות הלב
+DESCRIPTION:מסיבה קהילתית של תנועה\, מוזיקה ושייכות מבית מסעות הלב.\nhttps://mim21.github.io/gmail-events/#event-COSMIC-VIBES-מסיבה-קהילתית-של-מסעות-הלב-20261128-1930
+LOCATION:מרכז זן גרדן · פרדס חנה
+URL:https://mim21.github.io/gmail-events/#event-COSMIC-VIBES-%D7%9E%D7%A1%D7%99%D7%91%D7%94-%D7%A7%D7%94%D7%99%D7%9C%D7%AA%D7%99%D7%AA-%D7%A9%D7%9C-%D7%9E%D7%A1%D7%A2%D7%95%D7%AA-%D7%94%D7%9C%D7%91-20261128-1930
+END:VEVENT
+BEGIN:VEVENT
 UID:d21b06dec6fd25fd6be44ac4b5fe7ec2@gmail-events
-DTSTAMP:20261026T060551Z
+DTSTAMP:20261030T060712Z
 DTSTART:20261130T180000
 DTEND:20270201T213000
 SUMMARY:יניב גולד אוקאס וצוות מנחות ומנחים — Arts of Love — קורס אומנויות האהבה\, מחזור 5
@@ -75,7 +64,7 @@ URL:https://mim21.github.io/gmail-events/#event-Arts-of-Love-%D7%A7%D7%95%D7%A8%
 END:VEVENT
 BEGIN:VEVENT
 UID:1646abaf87aae388c46c4427953f0aa1@gmail-events
-DTSTAMP:20261026T060551Z
+DTSTAMP:20261030T060712Z
 DTSTART:20261216T150000
 DTEND:20261219T160000
 SUMMARY:מרינה קושניר — הכשרת קונדליני אקטיביישן למטפלים ומנחים
@@ -85,7 +74,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%94%D7%9B%D7%A9%D7%A8%D7%AA-%
 END:VEVENT
 BEGIN:VEVENT
 UID:c9d201eeeae5a586f5318c2483c211a4@gmail-events
-DTSTAMP:20261026T060551Z
+DTSTAMP:20261030T060712Z
 DTSTART:20261217T203000
 DTEND:20261217T223000
 SUMMARY:СЕМЕН СЛЕПАКОВ — «Сидиди и не пидиди»
