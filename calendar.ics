@@ -5,7 +5,7 @@ X-WR-CALNAME:אירועים מהמייל
 X-WR-TIMEZONE:Asia/Jerusalem
 BEGIN:VEVENT
 UID:43eed4ef00844c2d31cd298863e8a93a@gmail-events
-DTSTAMP:20261030T060712Z
+DTSTAMP:20261031T060322Z
 DTSTART:20261107T193000
 DTEND:20261107T223000
 SUMMARY:דוד כהן צדק — ערב מבוא לסודות האינטימיות הזוגית
@@ -14,7 +14,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%A2%D7%A8%D7%91-%D7%9E%D7%91%
 END:VEVENT
 BEGIN:VEVENT
 UID:fa0e8bb919f6230d55c17244d5aaa525@gmail-events
-DTSTAMP:20261030T060712Z
+DTSTAMP:20261031T060322Z
 DTSTART:20261113T100000
 DTEND:20261113T160000
 SUMMARY:דוד כהן צדק — יום עיון ומבוא לטנטרה תרפיה
@@ -23,8 +23,18 @@ LOCATION:תל אביב
 URL:https://mim21.github.io/gmail-events/#event-%D7%99%D7%95%D7%9D-%D7%A2%D7%99%D7%95%D7%9F-%D7%95%D7%9E%D7%91%D7%95%D7%90-%D7%9C%D7%98%D7%A0%D7%98%D7%A8%D7%94-%D7%AA%D7%A8%D7%A4%D7%99%D7%94-20261113-1000
 END:VEVENT
 BEGIN:VEVENT
+UID:73d201a2354ea7686519dd00081d21de@gmail-events
+DTSTAMP:20261031T060322Z
+DTSTART:20261119T150000
+DTEND:20261121T150000
+SUMMARY:Doors of Perception by The Block
+DESCRIPTION:שלושה ימים של מוזיקה\, הופעות חיות\, דאון טמפו\, אמביינט\, וידאו ארט\, סאונד הילינג\, מדיטציה ויוגה על שפת הכנרת\, בהפקת Gatherings ומועדון הבלוק.\nhttps://mim21.github.io/gmail-events/#event-Doors-of-Perception-by-The-Block-20261119-1500
+LOCATION:סולאיה כנרת
+URL:https://mim21.github.io/gmail-events/#event-Doors-of-Perception-by-The-Block-20261119-1500
+END:VEVENT
+BEGIN:VEVENT
 UID:250221f3cc82081b0d6f5363d7dd1f2d@gmail-events
-DTSTAMP:20261030T060712Z
+DTSTAMP:20261031T060322Z
 DTSTART:20261119T210000
 DTEND:20261120T020000
 SUMMARY:צוקריה
@@ -34,7 +44,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%A6%D7%95%D7%A7%D7%A8%D7%99%D
 END:VEVENT
 BEGIN:VEVENT
 UID:1f484af878121cd3622ce3b7f1878958@gmail-events
-DTSTAMP:20261030T060712Z
+DTSTAMP:20261031T060322Z
 DTSTART:20261120T203000
 DTEND:20261120T223000
 SUMMARY:ЛИНДА — מופע סולו גדול בתל אביב
@@ -44,7 +54,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D0%9B%D0%98%D0%9D%D0%94%D0%90-%
 END:VEVENT
 BEGIN:VEVENT
 UID:7a94e40802755cea98bf0352be2e1a28@gmail-events
-DTSTAMP:20261030T060712Z
+DTSTAMP:20261031T060322Z
 DTSTART:20261128T193000
 DTEND:20261128T230000
 SUMMARY:COSMIC VIBES — מסיבה קהילתית של מסעות הלב
@@ -54,7 +64,7 @@ URL:https://mim21.github.io/gmail-events/#event-COSMIC-VIBES-%D7%9E%D7%A1%D7%99%
 END:VEVENT
 BEGIN:VEVENT
 UID:d21b06dec6fd25fd6be44ac4b5fe7ec2@gmail-events
-DTSTAMP:20261030T060712Z
+DTSTAMP:20261031T060322Z
 DTSTART:20261130T180000
 DTEND:20270201T213000
 SUMMARY:יניב גולד אוקאס וצוות מנחות ומנחים — Arts of Love — קורס אומנויות האהבה\, מחזור 5
@@ -64,7 +74,7 @@ URL:https://mim21.github.io/gmail-events/#event-Arts-of-Love-%D7%A7%D7%95%D7%A8%
 END:VEVENT
 BEGIN:VEVENT
 UID:1646abaf87aae388c46c4427953f0aa1@gmail-events
-DTSTAMP:20261030T060712Z
+DTSTAMP:20261031T060322Z
 DTSTART:20261216T150000
 DTEND:20261219T160000
 SUMMARY:מרינה קושניר — הכשרת קונדליני אקטיביישן למטפלים ומנחים
@@ -74,7 +84,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%94%D7%9B%D7%A9%D7%A8%D7%AA-%
 END:VEVENT
 BEGIN:VEVENT
 UID:c9d201eeeae5a586f5318c2483c211a4@gmail-events
-DTSTAMP:20261030T060712Z
+DTSTAMP:20261031T060322Z
 DTSTART:20261217T203000
 DTEND:20261217T223000
 SUMMARY:СЕМЕН СЛЕПАКОВ — «Сидиди и не пидиди»
