@@ -4,8 +4,18 @@ PRODID:-//gmail-events//pipeline//HE
 X-WR-CALNAME:אירועים מהמייל
 X-WR-TIMEZONE:Asia/Jerusalem
 BEGIN:VEVENT
+UID:d96664e082f8368886dea820df5e9e32@gmail-events
+DTSTAMP:20261103T060426Z
+DTSTART:20261103T110000
+DTEND:20261103T130000
+SUMMARY:Александр Яковцев — AI-агенты для личной и бизнес-эффективности
+DESCRIPTION:בהנחיית Александр Яковцев\nВебинар об AI-агентах для личной и бизнес-эффективности с экспертом по автоматизации бизнес-процессов и внедрению нейросетей.\nhttps://mim21.github.io/gmail-events/#event-AI-агенты-для-личной-и-бизнес-эффективности-20261103-1100
+LOCATION:אונליין
+URL:https://mim21.github.io/gmail-events/#event-AI-%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%B9-%D0%B8-%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8-20261103-1100
+END:VEVENT
+BEGIN:VEVENT
 UID:43eed4ef00844c2d31cd298863e8a93a@gmail-events
-DTSTAMP:20261102T060521Z
+DTSTAMP:20261103T060426Z
 DTSTART:20261107T193000
 DTEND:20261107T223000
 SUMMARY:דוד כהן צדק — ערב מבוא לסודות האינטימיות הזוגית
@@ -14,7 +24,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%A2%D7%A8%D7%91-%D7%9E%D7%91%
 END:VEVENT
 BEGIN:VEVENT
 UID:fa0e8bb919f6230d55c17244d5aaa525@gmail-events
-DTSTAMP:20261102T060521Z
+DTSTAMP:20261103T060426Z
 DTSTART:20261113T100000
 DTEND:20261113T160000
 SUMMARY:דוד כהן צדק — יום עיון ומבוא לטנטרה תרפיה
@@ -24,7 +34,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%99%D7%95%D7%9D-%D7%A2%D7%99%
 END:VEVENT
 BEGIN:VEVENT
 UID:73d201a2354ea7686519dd00081d21de@gmail-events
-DTSTAMP:20261102T060521Z
+DTSTAMP:20261103T060426Z
 DTSTART:20261119T150000
 DTEND:20261121T150000
 SUMMARY:Doors of Perception by The Block
@@ -34,7 +44,7 @@ URL:https://mim21.github.io/gmail-events/#event-Doors-of-Perception-by-The-Block
 END:VEVENT
 BEGIN:VEVENT
 UID:250221f3cc82081b0d6f5363d7dd1f2d@gmail-events
-DTSTAMP:20261102T060521Z
+DTSTAMP:20261103T060426Z
 DTSTART:20261119T210000
 DTEND:20261120T020000
 SUMMARY:צוקריה
@@ -44,7 +54,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%A6%D7%95%D7%A7%D7%A8%D7%99%D
 END:VEVENT
 BEGIN:VEVENT
 UID:1f484af878121cd3622ce3b7f1878958@gmail-events
-DTSTAMP:20261102T060521Z
+DTSTAMP:20261103T060426Z
 DTSTART:20261120T203000
 DTEND:20261120T223000
 SUMMARY:ЛИНДА — מופע סולו גדול בתל אביב
@@ -54,7 +64,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D0%9B%D0%98%D0%9D%D0%94%D0%90-%
 END:VEVENT
 BEGIN:VEVENT
 UID:7a94e40802755cea98bf0352be2e1a28@gmail-events
-DTSTAMP:20261102T060521Z
+DTSTAMP:20261103T060426Z
 DTSTART:20261128T193000
 DTEND:20261128T230000
 SUMMARY:COSMIC VIBES — מסיבה קהילתית של מסעות הלב
@@ -64,7 +74,7 @@ URL:https://mim21.github.io/gmail-events/#event-COSMIC-VIBES-%D7%9E%D7%A1%D7%99%
 END:VEVENT
 BEGIN:VEVENT
 UID:d21b06dec6fd25fd6be44ac4b5fe7ec2@gmail-events
-DTSTAMP:20261102T060521Z
+DTSTAMP:20261103T060426Z
 DTSTART:20261130T180000
 DTEND:20270201T213000
 SUMMARY:יניב גולד אוקאס וצוות מנחות ומנחים — Arts of Love — קורס אומנויות האהבה\, מחזור 5
@@ -74,7 +84,7 @@ URL:https://mim21.github.io/gmail-events/#event-Arts-of-Love-%D7%A7%D7%95%D7%A8%
 END:VEVENT
 BEGIN:VEVENT
 UID:1646abaf87aae388c46c4427953f0aa1@gmail-events
-DTSTAMP:20261102T060521Z
+DTSTAMP:20261103T060426Z
 DTSTART:20261216T150000
 DTEND:20261219T160000
 SUMMARY:מרינה קושניר — הכשרת קונדליני אקטיביישן למטפלים ומנחים
@@ -84,7 +94,7 @@ URL:https://mim21.github.io/gmail-events/#event-%D7%94%D7%9B%D7%A9%D7%A8%D7%AA-%
 END:VEVENT
 BEGIN:VEVENT
 UID:c9d201eeeae5a586f5318c2483c211a4@gmail-events
-DTSTAMP:20261102T060521Z
+DTSTAMP:20261103T060426Z
 DTSTART:20261217T203000
 DTEND:20261217T223000
 SUMMARY:СЕМЕН СЛЕПАКОВ — «Сидиди и не пидиди»
